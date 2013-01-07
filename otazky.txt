@@ -1,0 +1,4609 @@
+Otázka 1: Označte pravdivé tvrzení v kontextu DNS
+
+Možnosti	Odpověď
+	doména a zóna jsou synonyma pro tentýž objekt
+	obsah zóny je částí příslušné domény
+	obsah domény je částí příslušné zóny, nikdy nejsou shodné
+	počet delegování je v zóně omezen na 16, v doméně na 32
+	
+Otázka 2: Zpracování front sendmailu spustí příkaz
+
+Možnosti	Odpověď
+	mailstats
+	runq
+	hoststat
+	newaliases
+	
+Otázka 3: Počítač s hostname "cuni" v doméně "cz" bude mít FQDN
+
+Možnosti	Odpověď
+	cuni.cz
+	cuni.cuni.cz.
+	mff.cuni.cz
+	cuni.cz.
+	
+Otázka 4: Obsah sendmail front vypíše příkaz
+
+Možnosti	Odpověď
+	runq
+	mailstats
+	purgestat
+	hoststat
+	
+Otázka 5: Seznam všech super bloků na ext2 filesystému lze získat pomocí
+
+Možnosti	Odpověď
+	badblock
+	du
+	df
+	mke2fs (mkfs)
+	
+Otázka 6: Statistiku přenosů (per mailer) sendmailu zobrazí příkaz
+
+Možnosti	Odpověď
+	mailq
+	newaliases
+	mailstats
+	runq
+	
+Otázka 7: Směrovací tabulku můžete, např. na Linuxu, získat pomocí
+
+Možnosti	Odpověď
+	routed
+	ifconfig -an
+	netstart -r
+	
+Otázka 8: Na OpenBSD se o příjem logovacích zpráv standardně stará démon
+
+Možnosti	Odpověď
+	newsyslog
+	kernellogd
+	loggerd
+	logrotate
+	
+Otázka 9: Označte všechny povely, které zavedou nového uživatele
+
+Možnosti	Odpověď
+	userdel
+	usermod
+	useradd
+	configure
+	
+Otázka 10: Backscatter
+
+Možnosti	Odpověď
+	je jiné označení pro ICMP
+	je side-efekt činnosti, která vede k zasílání e-mailových nedoručenek nevinné oběti
+	je běžná e-mailová korespondence, kterou chce správce doručovat s maximální prioritou
+	je technika, která umožňuje testování a ladění výkonu SMTP serverů
+	
+Otázka 11: PPTP
+
+Možnosti	Odpověď
+	nahradilo méně bezpečné L2TP/IPsec
+	je rovnocenný ekvivalent technologie IPsec
+	je proprietárním protokolem, který tak není v prostředí OSS UNIXů implementován
+	
+Otázka 12: Záloha na úrovni 0 značí
+
+Možnosti	Odpověď
+	plnou zálohu
+	nedefinovanou zálohu
+	poslední (aktuální) zálohu
+	prázdnou zálohu
+	
+Otázka 13: Označte pravdivá tvrzení v kontextu LVM
+
+Možnosti	Odpověď
+	logical volume se alokuje přímo z fyzického disku
+	logical volume se alokuje z volume group
+	fyzické disky mohou být sloučeny do volume group
+	může obsahovat interní podporu pro některé typy RAID
+	
+Otázka 14: Znovunačtení zónových (DNS) souborů zajistí
+
+Možnosti	Odpověď
+	rndc stop
+	tanec kolem ohně
+	provede se automaticky bez zásahu administrátora
+	
+Otázka 15: Kolik SA existuje po navázání IPsec tunelu mezi dvěma směrovači (nejsou-li mezitím žádné rušeny)?
+
+Možnosti	Odpověď
+	právě 2
+	právě 1
+	právě 3
+	právě 4
+	
+Otázka 16: Jaký je rozdíl mezi primárním a sekundárním DNS serverem?
+
+Možnosti	Odpověď
+	primár obsahuje důležitější záznamy jak sekundár
+	žádný, sekundár ale může podporovat rekursivní DNS dotazy
+	žádný, mají identickou konfiguraci
+	primár čte data ze souboru, sekundár z primáru (ev. pomocného souboru)
+	
+Otázka 17: Kolik inodů zabírá (pojmenovaná) roura/socket
+
+Možnosti	Odpověď
+	1
+	3
+	žadný, roura ani socket nepotřebuje alokovat žádnou inodu
+	2
+	
+Otázka 18: Výpadek DNS serveru může nahradit seznam jmen a IP v souboru
+
+Možnosti	Odpověď
+	/etc/bind.allow
+	/etc/pf.conf
+	/root/.bash_history
+	/var/named/etc/named.conf
+	
+Otázka 19: Statistiku transferu (per host) sendmailu zobrazí příkaz
+
+Možnosti	Odpověď
+	hoststat
+	mailq
+	newaliases
+	mailstats
+	
+Otázka 20: Označte všechny pravdivé výroky o mbox
+
+Možnosti	Odpověď
+	vyžaduje funkční operaci zamykání souborů v cílovém adresáři
+	podporuje sdílení složek mezi více uživateli
+	umožňuje uživateli rychlé vyhodnocování regulárních výrazů nad došlou poštou
+	nové e-maily se připisují na konec souboru schránky uživatele
+	
+Otázka 21: Program, který vypíše status otevřených souborů jednotlivých procesů se jmenuje
+
+Možnosti	Odpověď
+	netstat
+	pstat
+	fstat
+	sysctl
+	
+Otázka 22: Mezi selekcí a akcí musí být v /etc/syslog.conf (např. na OpenBSD)
+
+Možnosti	Odpověď
+	právě jeden tabulátor
+	libovolný počet mezer
+	libovolný počet výplňových znaků (mezera, tabulátor, odřádkovač)
+	jeden nebo více tabulátorů
+	
+Otázka 23: CARP byl nastaven s advbase=200. Kterým příkazem lze tuto hodnotu změnit?
+
+Možnosti	Odpověď
+	sysconfig
+	carp
+	pfctl
+	ifconfig
+	
+Otázka 24: Co způsobí v OpenBSD firewallu řádek "block in"
+
+Možnosti	Odpověď
+	zablokuje vstup paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	zablokuje odchod paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje vstup paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	
+Otázka 25: Chcete-li, aby se na terminál nepřihlásil uživatel root, musíte v OpenBSD
+
+Možnosti	Odpověď
+	touch /etc/nologin
+	provést rm -rf /root
+	napsat jméno terminálu do /etc/nologin.txt
+	nastavit terminál jako "on secure" v /etc/ttys
+	
+Otázka 26: Inoda s číslem 1 obsahuje/odkazuje
+
+Možnosti	Odpověď
+	zavaděč (boot loader)
+	undelete adresář
+	taková inoda neexistuje
+	kořen filesystému
+	
+Otázka 27: Označte příkazy, které zastaví (se správnými parametry) běžící systém bez opětovného startu
+
+Možnosti	Odpověď
+	halt
+	init
+	shutdown
+	poweroff
+	
+Otázka 28: Příkaz používaný pro zazálohování filesystému je
+
+Možnosti	Odpověď
+	mount
+	umount
+	restore
+	dump
+	
+Otázka 29: Označte procesy nutné pro provoz NFS serveru
+
+Možnosti	Odpověď
+	ypupdated
+	amd
+	ypserv
+	ypbind
+	
+Otázka 30: Kolik zpráv se používá ve fázi 2 IKE?
+
+Možnosti	Odpověď
+	právě 2
+	právě 6
+	právě 1
+	
+Otázka 31: Označte ty parametry postfixu, které umožňují relay pošty jen z vymezené části šítě
+
+Možnosti	Odpověď
+	mynetworks
+	myorigin
+	relayhost
+	mydestination
+	
+Otázka 33: Označte všechny distribuované (síťové) souborové systémy
+
+Možnosti	Odpověď
+	NFS
+	AFS
+	OpenGFS
+	Lustre
+	
+Otázka 34: Sekundár bude kontaktovat příslušný DNS primár (označte všechny správné možnosti)
+
+Možnosti	Odpověď
+	nikdy ho kontaktovat nebude, nemá k tomu nikdy vůbec žádný důvod
+	po uplynutí doby specifikované v "Refresh" hodnotě SOA atributu
+	jen po uplynutí doby specifikované v "Expire" hodnotě SOA atributu
+	jakmile dostane NOTIFY zprávu od primáru
+	
+Otázka 35: Označte procesy, které musí být přítomné na YP klientovi
+
+Možnosti	Odpověď
+	ypupdated
+	ypbind
+	ypserv
+	keyserv
+	
+Otázka 36: Specifikace "masters" v zone bloku ve /var/named/etc/named.conf je smysluplná pro
+
+Možnosti	Odpověď
+	zone blok typu slave
+	zone blok typu hint
+	zone blok typu master
+	zone blok typu chaos
+	
+Otázka 37: Co bude zapsáno při last-close sémantice, po instrukcích oOwWWwcC (open/writeblock/close dvou procesů nad týmž souborem, rozlišeno kapitálkami)
+
+Možnosti	Odpověď
+	první W, druhé W
+	první w, druhé W
+	první W, druhé w
+	první w, druhé w
+	
+Otázka 38: IKE/ISAKMPD provádí
+
+Možnosti	Odpověď
+	volbu IPsec tunelů, kterými pak směruje definované toky
+	autentizaci uzlů
+	funguje jako směrovač v IPsec vrstvě
+	kompletní šifrování všech paketů zpracovávaných v IPsec
+	
+Otázka 39: Seznam dostupných YP map lze na OpenBSD získat jako výstup příkazu
+
+Možnosti	Odpověď
+	ypcat
+	ypserv
+	ypbind
+	ypinit
+	
+Otázka 40: RDR pravidla se na OpenBSD aplikují
+
+Možnosti	Odpověď
+	i během aplikace pravidel firewallu (obě skupiny se mohou vzájemně mísit)
+	po aplikaci pravidel firewallu
+	
+Otázka 41: Pokud je mezi YP klientem a serverem router, pak
+
+Možnosti	Odpověď
+	je nevyhnutelné dovolit šíření broadcastu skrze router
+	taková konfigurace nemůže nikdy fungovat
+	není zapotřebí nic dělat, klient vždy objeví server broadcastem
+	
+Otázka 42: Seznam všech nainstalovaných balíčků na OpenBSD získáte jako výstup z
+
+Možnosti	Odpověď
+	pkg_add
+	pkg_delete
+	pkg_info
+	pkg_list
+	
+Otázka 43: Jaké adresáře využívá maildir formát pro svoji činnost
+
+Možnosti	Odpověď
+	žádné adresáře nepoužívá, e-maily připisuje do jediného souboru
+	pouze cur a new
+	pouze cur
+	cur, new a tmp
+	
+Otázka 44: Seznam běžících RPC služeb lze získat pomocí
+
+Možnosti	Odpověď
+	rpcinfo, spouštěný výhradně lokálně na konkrétním stroji
+	seznam je uveden v /etc/rpc
+	rpcinfo, a to i vzdáleně (přes síť)
+	rpcstat, a to i vzdáleně (přes síť)
+	
+Otázka 45: Kolik musí existovat autoritativních DNS serverů k dané zóně?
+
+Možnosti	Odpověď
+	právě dva a více
+	žádný není potřeba
+	právě dva
+	alespoň jeden
+	
+Otázka 46: Kolik diskových datových bloků zabírá roura/socket
+
+Možnosti	Odpověď
+	právě 1
+	právě 2
+	právě 3
+	žadný, roura/socket nepotřebuje alokovat žádný datový blok
+	
+Otázka 50: Jaké oblasti obsahuje cylinder group typického UFS
+
+Možnosti	Odpověď
+	informace o filesystému (super block)
+	zavaděč (boot block)
+	oblast s datovými bloky
+	oblast s inodami
+	cylinder group map
+	
+Otázka 51: Seznam běžících procesů vypisuje program
+
+Možnosti	Odpověď
+	vmstat
+	netstat
+	pstat
+	ps
+	
+Otázka 52: Co je uloženo v souboru ~/.ssh/known_hosts?
+
+Možnosti	Odpověď
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	identifikace známých serverů (jejich otisky)
+	autorizované veřejné klíče
+	zkratky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	
+Otázka 53: Označte pravdivé výroky o snapshotu filesystému
+
+Možnosti	Odpověď
+	zatím nebyl implementován, existuje jen v teoretických úvahách
+	nikdy ho nelze připojit v režimu read-only
+	lze ho implementovat pomocí sparse file
+	lze ho připojovat a dodatečně zálohovat
+	
+Otázka 54: Kolik datových bloků zabírá adresář
+
+Možnosti	Odpověď
+	žadný, adresář nepotřebuje alokovat žádný datový blok
+	právě 3
+	právě 1
+	právě 2
+	
+Otázka 56: O kolik zpráv je rychlejší aggressive mód než main mód ve fázi 1 IKE?
+
+Možnosti	Odpověď
+	právě o 3
+	právě o 1
+	právě o 2
+	právě o 6
+	
+Otázka 57: Označte položky tvořící SA
+
+Možnosti	Odpověď
+	TTL
+	Refresh
+	hashovací funkce (sha, md5)
+	
+Otázka 58: Příkaz sloužící k připojení filesystému je
+
+Možnosti	Odpověď
+	newfs
+	mount
+	tune2fs
+	mkfs
+	
+Otázka 59: Označte všechny záznamy ekvivaletní s "mail.cuni.cz MX 10 relay.cuni.cz"
+
+Možnosti	Odpověď
+	"mail MX 10 relay.cuni.cz" při ORIGIN cuni.cz
+	"mail MX 10 relay." při ORIGIN cuni.cz
+	"mail. MX 10 relay" při ORIGIN cuni.cz
+	
+Otázka 60: Pokud na běžícím OpenBSD serveru smažeme obsah adresáře /etc/ssh vyjma souborů *_config, pak po restartu
+
+Možnosti	Odpověď
+	se vůbec nic nestane, ssh klienti nebudou nijak varováni
+	ssh server už nikdy nenaběhne
+	se žádný ssh klient již nepřipojí
+	
+Otázka 61: Backscatter
+
+Možnosti	Odpověď
+	je plně eliminován pomocí blacklistů
+	lze částečně eliminovat analýzou hlavičkových údajů v nedoručence
+	je standardně postfixem i dalšími SMTP servery odmítán
+	nelze nikdy a za žádných podmínek eliminovat či omezit
+	
+Otázka 62: Jak vyřešíte poškození super bloku bez ztráty dat
+
+Možnosti	Odpověď
+	použítím fsck -b se záložním super blokem
+	obnovou svazku ze záložního média
+	nelze vůbec řešit, svazek je nenávratně ztracen
+	naformátování svazku v tzv. dry-run
+	
+Otázka 63: Firewall na OpenBSD se ovládá pomocí
+
+Možnosti	Odpověď
+	iptables
+	ipsecctl
+	pfstat
+	
+Otázka 64: Pfsync na OpenBSD
+
+Možnosti	Odpověď
+	synchronizuje tabulku stavů
+	synchronizuje soubory /etc/pf.conf
+	synchronizuje pravidla firewallu, vcetne pravidel NAT/RDR
+	synchronizuje pravidla firewallu, bez pravidel NAT/RDR
+	
+Otázka 65: Na OpenBSD obsahuje nainstalovaný soubor /var/named/etc/root.hint (ev. root.hint ve /var/named)
+
+Možnosti	Odpověď
+	keš všech záznamů prošlých skrze daný server
+	seznam všech name serverů dosažitelných bez pomoci routeru
+	seznam všech name serverů druhé úrovně
+	návody/hinty pro uživatele "root"
+	
+Otázka 66: Příkaz snmpwalk
+
+Možnosti	Odpověď
+	vylistuje obsah požadované části SNMP stromu (báze)
+	nastaví SNMP server, zoptimalizuje jeho výkon
+	projde obsah SNMP báze a najde v ní všechny chyby
+	najde všechny SNMP servery v okolí
+	
+Otázka 68: Kolik datových bloků může alokovat jeden symbolický link
+
+Možnosti	Odpověď
+	1
+	3
+	žádný
+	2
+	
+Otázka 69: Inoda s číslem 0 obsahuje/odkazuje
+
+Možnosti	Odpověď
+	taková inoda neexistuje
+	zavaděč (boot loader)
+	undelete adresář
+	kořen filesystému
+	
+Otázka 70: K inicializaci záložního (slave) serveru YP domény slouží příkaz
+
+Možnosti	Odpověď
+	rpc.yppasswdd
+	ypbind
+	ypserv
+	
+Otázka 71: Co je uloženo v souboru ~/.ssh/authorized_keys?
+
+Možnosti	Odpověď
+	identifikace známých serverů (jejich otisky)
+	zkrátky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	
+Otázka 72: Jakou funkci plní amd program na OpenBSD
+
+Možnosti	Odpověď
+	dynamicky připojuje svazky (výhradně síťové) podle své konfigurace
+	zkratka pro another-memory-dumper, jedná o dumper paměti
+	slouží jako koprocesor, pokud je hlavním CPU Intel i7
+	amd je ekvivalent programu mount
+	
+Otázka 73: Firewall na Linuxu (iptables) se ovládá pomocí
+
+Možnosti	Odpověď
+	ipctl
+	iptablesctl
+	iptables
+	pfctl
+	
+Otázka 74: Položky v zónovém souboru, které definují DNS servery dané zóny jsou typu
+
+Možnosti	Odpověď
+	MX
+	A
+	NS
+	CNAME
+	
+Otázka 75: Jak musí být nastavena stanice s CARP, aby každou sekundu informovala o své přítomnosti?
+
+Možnosti	Odpověď
+	stanice s CARP o své přítomnosti vůbec neinformuje
+	takové nastavení nelze dosáhnout
+	advskew=1, advbase=0
+	advbase=1, advskew=0
+	
+Otázka 76: Glue záznam
+
+Možnosti	Odpověď
+	pomáhá kontaktovat DNS, na které se oddelegovává, a jehož doménové jméno je v oné oddelegovávané (pod)zóně
+	udává doménové jméno primárního serveru nadřazené zóny
+	je každý NS záznam v zóně
+	je korektní umisťovat ke všem NS záznamům zóny
+	
+Otázka 77: Sparse file je
+
+Možnosti	Odpověď
+	soubor pana Sparse
+	synonymum pro swap file
+	speciální blokové zařízení obdobné /dev/null
+	řidký soubor s dírami vzniklými HW závadami diskových bloků
+	
+Otázka 78: Na veřejné síti někdo odchytí náš ESP paket, o kterém víme že obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Možnosti	Odpověď
+	pozorovatel ví, že se jedná o ESP v režimu transport
+	pozorovatel ví, že se jedná o ESP v režimu tunel
+	
+Otázka 79: AH paket obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Možnosti	Odpověď
+	jedná se výhradně o AH v režimu tunel
+	o režimu AH, transport nebo tunel, nelze nic říci
+	něco takového se v případě AH vůbec nestane
+	
+Otázka 80: Co způsobí na OpenBSD řádek +:*:::::/sbin/nologin v passwd?
+
+Možnosti	Odpověď
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, ale poslední položka je v nich změněna na /sbin/nologin
+	tento řádek je nekorektní, nebude nijak interpretován
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, pokud mají poslední položku /sbin/nologin
+	všichni lokálně definovaní uživatelé se již ke stroji nebudou moci připojit
+	
+Otázka 81: Dojde ke zpracování paketu skrze AH. V kterém režimu (transport/tunel) vznikne větší výsledný AH paket?
+
+Možnosti	Odpověď
+	AH tunel je vždy větší
+	AH tunel je občas větší, ale ne vždy
+	oba pakety jsou stejné, liší se jen hodnotami v IP hlavičce
+	AH transport je vždy větší
+	
+Otázka 82: Kde najdete obnovené soubory po fsck
+
+Možnosti	Odpověď
+	v adresáři tmp
+	na své USB klíčence
+	v domácím adresáři uživatele root
+	v adresáři lost+found
+	
+Otázka 83: K čemu se využívá adresář /var/empty (např. na OpenBSD)
+
+Možnosti	Odpověď
+	nemá žádné využití, může se smazat, vznikl omylem a je udržován z historických důvodů
+	slouží pro named jako adresář jeho chroot volání
+	slouží pro prvního otroka při přihlašování skrze ssh
+	slouží pro interní potřeby všech chroot volání
+	
+Otázka 84: Pro povel "dig @nejaky.server.cz zone axfr" platí
+
+Možnosti	Odpověď
+	za všech okolností skončí s chybou, protože AXFR nelze iniciovat z konzole
+	vždy vypíše A i MX-záznamy serveru, pokud se nachází v dané zóně
+	vždy vypíše kompletní obsah dané zóny a daný server to nemůže omezit
+	
+Otázka 85: Na žurnálovém souborovém filesystému jsou atomické operace typicky
+
+Možnosti	Odpověď
+	cp -r
+	
+Otázka 86: Označte všechny pravdivé výroky o velkém diskovém bloku
+
+Možnosti	Odpověď
+	nemá žádný vliv na výslednou rychlost FS, není důvod ho preferovat před malými bloky
+	hodí se na svazky (ext2...) s obrovským počtem malých souborů
+	
+Otázka 88: NFS svazek se na klientovi připojí pomocí
+
+Možnosti	Odpověď
+	nfsstat
+	rpcinfo
+	showmount
+	mount, resp. mount.nfs či mount_nfs
+	
+Otázka 89: Označte položky z AH hlavičky
+
+Možnosti	Odpověď
+	TTL
+	číslo čílového stroje a TCP portu
+	číslo IP protokolu
+	
+Otázka 90: Kolik "CNAME" záznamů může být zaneseno pro jeden konkrétní hostname
+
+Možnosti	Odpověď
+	nejvýše 3
+	nejvýše jeden
+	libovolný počet
+	ani jeden
+	
+Otázka 91: Záloha na úrovni N>0 bude obsahovat
+
+Možnosti	Odpověď
+	přírůstkovou zálohu od poslední zálohy na vyšší úrovni (s vyšším číslem)
+	nic, protože záloha může být jen na úrovni 0
+	plnou zálohu
+	přírůstkovou zálohu od poslední zálohy na nižší úrovni (s nižším číslem)
+	
+Otázka 92: Inoda obsahuje
+
+Možnosti	Odpověď
+	kopii MBR
+	adresu ACPI tabulky v jádře
+	úplnou cestu k souboru
+	emailovou adresu autora VFS
+	
+Otázka 93: Příkaz sloužící k opravě filesystému je
+
+Možnosti	Odpověď
+	umount
+	mkfs
+	tune2fs
+	dump
+	
+Otázka 94: Kolik fází je prováděno v rámci IKE/ISAKMP
+
+Možnosti	Odpověď
+	nejméně šest
+	právě dvě
+	právě tři
+	právě jedna
+	
+Otázka 95: Tabulku (jako celek, nikoliv její obsah) nelze v pf na OpenBSD zrušit, pokud
+
+Možnosti	Odpověď
+	je zmíněna v /etc/pf.conf
+	je označena jako const
+	je označena jako volatile
+	
+Otázka 96: Označte jen ty parametry, které vyžaduje postfix, aby přijímal poštu pro lokální uživatele
+
+Možnosti	Odpověď
+	mydestination
+	myorigin
+	relay_domains
+	mynetworks
+	
+Otázka 97: Označte všechny povely, které dokáží přidat uživatele do skupiny
+
+Možnosti	Odpověď
+	groupmod
+	groupadd
+	gpasswd
+	ghostscript
+	
+Otázka 99: Označte všechny možnosti jak převést stanici s OpenBSD do single-user režimu
+
+Možnosti	Odpověď
+	shutdown
+	kill -9 1 v klasickém shellu
+	init 1 v klasickém shellu
+	
+Otázka 100: Zobrazení systémových položek (datových struktur) získáte na BSD příkazem
+
+Možnosti	Odpověď
+	netstat
+	pstat
+	openconfig
+	fstat
+	
+Otázka 1: Inoda s číslem 2 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	undelete adresář
+	kořen filesystému
+	taková inoda neexistuje
+	zavaděč (boot loader)
+	
+Otázka 2: Backscatter
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	lze částečně eliminovat analýzou hlavičkových údajů v nedoručence
+	je plně eliminován pomocí blacklistů
+	je standardně postfixem i dalšími SMTP servery odmítán
+	nelze nikdy a za žádných podmínek eliminovat či omezit
+	
+Otázka 3: Příkaz sloužící k opravě filesystému je
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	newfs
+	mount
+	umount
+	fsck
+	
+Otázka 4: Co se stane, pokud je restarován NFSv3 server
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	klient musí přemountovat daný NFS svazek, neboť NFSv3 je stavový protokol
+	klient vždy okamžitě spadne a je nutné ho restartovat
+	principielně může klient po restartu serveru nadále pracovat, neboť NFSv3 je bezestavový protokol
+	klient vždy zatuhne, a jádro jeho O/S zůstane neodvolatelně viset na interním dead-locku
+	
+Otázka 5: Označte všechny pravdivé výroky o mbox
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	vyžaduje funkční operaci zamykání souborů v cílovém adresáři
+	nové e-maily se připisují na konec souboru schránky uživatele
+	podporuje složky v rámci schránky
+	umožňuje uživateli rychlé vyhodnocování regulárních výrazů nad došlou poštou
+	
+Otázka 6: S čím se shoduje v m4 sendmail konfiguraci výraz $* < $+ >
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	Josek Novak <>
+	Josef Novak
+	<>
+	
+Otázka 7: Seznam všech super bloků na ext2 filesystému lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	du
+	badblock
+	mke2fs (mkfs)
+	fsck
+	
+Otázka 8: Kolik zpráv se používá ve fázi 2 IKE?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	právě 6
+	právě 2
+	právě 3
+	právě 1
+	
+Otázka 9: Tabulku (jako celek, nikoliv její obsah) nelze v pf na OpenBSD zrušit, pokud
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	je zmíněna v /etc/pf.conf
+	je označena jako const
+	je označena jako volatile
+	
+Otázka 10: Znovunačtení zónových (DNS) souborů zajistí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	provede se automaticky bez zásahu administrátora
+	rndc stop
+	tanec kolem ohně
+	reboot
+	
+Otázka 11: K inicializaci master serveru YP domény slouží příkaz
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	rpc.yppasswdd
+	ypbind
+	ypserv
+	ypinit
+	
+Otázka 12: AH paket obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	o režimu AH, transport nebo tunel, nelze nic říci
+	něco takového se v případě AH vůbec nestane
+	jedná se výhradně o AH v režimu tunel
+	
+Otázka 13: Co způsobí na OpenBSD řádek +:*:::::/sbin/nologin v passwd?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	všichni lokálně definovaní uživatelé se již ke stroji nebudou moci připojit
+	tento řádek je nekorektní, nebude nijak interpretován
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, pokud mají poslední položku /sbin/nologin
+	
+Otázka 14: Výpadek DNS serveru může nahradit seznam jmen a IP v souboru
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	/var/named/etc/named.conf
+	/root/.bash_history
+	/etc/hosts
+	/etc/pf.conf
+	
+Otázka 15: Označte všechny pravdivé výroky o velkém diskovém bloku
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	oproti menšímu bloku typicky zrychluje vstupně-výstupní operace
+	hodí se na svazky (ext2...) s malým počtem obrovských souborů
+	oproti menšímu bloku vede k většímu plýtvání diskovou kapacitou
+	hodí se na svazky (ext2...) s obrovským počtem malých souborů
+	
+Otázka 16: Glue záznam
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	je každý NS záznam v zóně
+	je korektní umisťovat ke všem NS záznamům zóny
+	udává doménové jméno primárního serveru nadřazené zóny
+	
+Otázka 17: Příkaz snmpwalk
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	najde všechny SNMP servery v okolí
+	projde obsah SNMP báze a najde v ní všechny chyby
+	vylistuje obsah požadované části SNMP stromu (báze)
+	nastaví SNMP server, zoptimalizuje jeho výkon
+	
+Otázka 18: Kolik inodů zabírá adresář
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	3
+	žadný, adresář nepotřebuje alokovat žádnou inodu
+	v průměru 1,5
+	2
+	
+Otázka 19: Jaké adresáře využívá maildir formát pro svoji činnost
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	žádné adresáře nepoužívá, e-maily připisuje do jediného souboru
+	cur, new a tmp
+	pouze cur a new
+	pouze cur
+	
+Otázka 20: Příkaz používaný pro zazálohování filesystému je
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	umount
+	newfs
+	dump
+	mount
+	
+Otázka 21: Detekci špatně nastavené směrovací tabulky do nějaké konkrétní sítě provedete příkazem
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ping
+	ifconfig
+	mc
+	nettop
+	
+Otázka 23: Kolik datových bloků může alokovat jeden symbolický link
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	podle velikosti cílového souboru
+	2
+	3
+	
+Otázka 24: Seznam dostupných YP map lze na OpenBSD získat jako výstup příkazu
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	yplist
+	ypbind
+	ypserv
+	ypcat
+	
+Otázka 25: Na veřejné síti někdo odchytí náš ESP paket, o kterém víme že obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	pozorovatel ví, že se jedná o ESP v režimu transport
+	pozorovatel ví, že se jedná o ESP v režimu tunel
+	pozorovatel není schopen rozhodnout o tom, zda je ESP v režimu tunel nebo transport
+	
+Otázka 26: Označte odpovědi, které vymezují množiny zpráv zalogovaných Syslog-em na OpenBSD při selektoru auth.info
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	zprávy na méně důležitých úrovních jak auth v modulu info
+	zprávy na úrovni auth v modulu info
+	zprávy na méně důležitých úrovních jak info v modulu auth
+	
+Otázka 27: Označte procesy nutné pro provoz NFS serveru
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ypserv
+	portmap
+	nfs/nfsd
+	mountd
+	
+Otázka 28: IKE/ISAKMPD provádí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	volbu IPsec tunelů, kterými pak směruje definované toky
+	autentizaci uzlů
+	funguje jako směrovač v IPsec vrstvě
+	kompletní šifrování všech paketů zpracovávaných v IPsec
+	
+Otázka 29: Jak vyřešíte poškození super bloku bez ztráty dat
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	naformátování svazku v tzv. dry-run
+	obnovou svazku ze záložního média
+	použítím fsck -b se záložním super blokem
+	modlitbou
+	
+Otázka 31: Označte pravdivé tvrzení v kontextu DNS
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	doména a zóna jsou synonyma pro tentýž objekt
+	obsah domény je částí příslušné zóny, nikdy nejsou shodné
+	počet delegování je v zóně omezen na 16, v doméně na 32
+	
+Otázka 32: Jak musí být nastavena stanice s CARP, aby každou sekundu informovala o své přítomnosti?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	takové nastavení nelze dosáhnout
+	advbase=1, advskew=0
+	stanice s CARP o své přítomnosti vůbec neinformuje
+	advskew=1, advbase=0
+	
+Otázka 33: K inicializaci záložního (slave) serveru YP domény slouží příkaz
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	rpc.yppasswdd
+	ypserv
+	ypinit
+	ypbind
+	
+Otázka 34: Označte příkazy, které zastaví (se správnými parametry) běžící systém bez opětovného startu
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	shutdown
+	halt
+	poweroff
+	init
+	
+Otázka 35: Sparse file je
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	soubor s dírami vzniklými například instrukcí lseek
+	speciální blokové zařízení obdobné /dev/null
+	soubor pana Sparse
+	synonymum pro swap file
+	
+Otázka 36: K čemu se využívá adresář /var/empty (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	slouží pro named jako adresář jeho chroot volání
+	nemá žádné využití, může se smazat, vznikl omylem a je udržován z historických důvodů
+	slouží pro interní potřeby všech chroot volání
+	slouží pro prvního otroka při přihlašování skrze ssh
+	
+Otázka 37: Jakou funkci plní amd program na OpenBSD
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	slouží jako koprocesor, pokud je hlavním CPU Intel i7
+	dynamicky připojuje svazky (výhradně síťové) podle své konfigurace
+	dynamicky připojuje svazky (lokální i síťové) podle své konfigurace
+	amd je ekvivalent programu mount
+	
+Otázka 38: Označte příkaz, který může modifikovat obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	lpq
+	lprm
+	lpc
+	lpr
+	
+Otázka 39: Firewall na Linuxu (iptables) se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	iptables
+	pfctl
+	iptablesctl
+	ipctl
+	
+Otázka 40: NAT pravidla se na OpenBSD aplikují
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	defaultně před pravidly firewallu, tj. filter uvidí transformovaný paket
+	i během aplikace pravidel firewallu (obě skupiny se mohou vzájemně mísit)
+	po aplikaci pravidel firewallu
+	
+Otázka 41: Kolik musí existovat autoritativních DNS serverů k dané zóně?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	právě jeden
+	žádný není potřeba
+	alespoň jeden
+	právě dva
+	
+Otázka 43: Soubor /etc/nologin na OpenBSD způsobí, že se
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	žádný uživatel k systému nepřihlásí, typicky s výjimkou skupiny staff
+	uživatelé uvedení v tomto souboru nepřihlásí
+	zobrazí obsah tohoto souboru po ověření přihlašovacích údajů
+	po restartu stroj automaticky převede na běhovou úroveň 9
+	
+Otázka 44: Počítač s hostname "cuni" v doméně "cz" bude mít FQDN
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	mff.cuni.cz
+	cuni.cuni.cz.
+	cuni.cuni.cz
+	
+Otázka 45: Pokud na běžícím OpenBSD serveru smažeme obsah adresáře /etc/ssh vyjma souborů *_config, pak po restartu
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	se vůbec nic nestane, ssh klienti nebudou nijak varováni
+	se žádný ssh klient již nepřipojí
+	budou ssh klienti varování, že se změnily klíče serveru
+	ssh server už nikdy nenaběhne
+	
+Otázka 46: Kolik diskových datových bloků zabírá soubor
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	žadný, soubor nepotřebuje alokovat žádný datový blok
+	podle velikosti souboru
+	právě 2
+	právě 1
+	
+Otázka 47: Parametry kernelu změníte na BSD/Linuxu příkazem
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	configure
+	setkernel
+	konfig
+	setparams
+	
+Otázka 48: CARP byl nastaven s advbase=200. Kterým příkazem lze tuto hodnotu změnit?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	sysctl
+	carp
+	pfctl
+	sysconfig
+	
+Otázka 49: Backscatter
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	je jiné označení pro ICMP
+	je běžná e-mailová korespondence, kterou chce správce doručovat s maximální prioritou
+	je technika, která umožňuje testování a ladění výkonu SMTP serverů
+	je side-efekt činnosti, která vede k zasílání e-mailových nedoručenek nevinné oběti
+	
+Otázka 50: Statistiku transferu (per host) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	mailq
+	newaliases
+	mailstats
+	purgestat
+	
+Otázka 51: NFS svazek se na klientovi připojí pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	showmount
+	nfsstat
+	rpcinfo
+	
+Otázka 52: Specifikace "masters" v zone bloku ve /var/named/etc/named.conf je smysluplná pro
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	zone blok typu master
+	zone blok typu slave
+	zone blok typu chaos
+	zone blok typu hint
+	
+Otázka 54: Seznam připojených NFS klientů, resp. seznam exportovaných mount-pointů, lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	showmount, spouštěného výhradně jen na NFS serveru
+	rpcinfo, spouštěného výhradně jen na NFS serveru
+	rpcinfo, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	
+Otázka 55: Kolik datových bloků zabírá adresář
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	právě 2
+	žadný, adresář nepotřebuje alokovat žádný datový blok
+	právě 1
+	právě 3
+	
+Otázka 56: Co způsobí v OpenBSD firewallu řádek "block in"
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	zablokuje odchod paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje vstup paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	
+Otázka 57: Obsah sendmail front vypíše příkaz
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	newaliases
+	hoststat
+	runq
+	mailq
+	
+Otázka 58: Směrovací tabulku můžete, např. na Linuxu, získat pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ifconfig -an
+	route -n
+	netstat -rn
+	routed
+	
+Otázka 59: Co je uloženo v souboru ~/.ssh/authorized_keys?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	identifikace známých serverů (jejich otisky)
+	zkrátky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	autorizované veřejné klíče
+	
+Otázka 60: Mezi selekcí a akcí musí být v /etc/syslog.conf (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	libovolný počet mezer
+	právě jeden tabulátor
+	libovolný počet výplňových znaků (mezera, tabulátor, odřádkovač)
+	
+Otázka 61: Označte příkaz, který zobrazí obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	lpq
+	lpr
+	lpd
+	lprm
+	
+Otázka 62: Seznam TCP socketů v režimu LISTEN získáte povelem (vč. parametrů)
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	route -n
+	ifconfig -a
+	netstat -an
+	netstat -a
+	
+Otázka 63: Pfsync na OpenBSD
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	synchronizuje soubory /etc/pf.conf
+	synchronizuje pravidla firewallu, vcetne pravidel NAT/RDR
+	synchronizuje pravidla firewallu, bez pravidel NAT/RDR
+	
+Otázka 64: Příkaz sloužící k inicializaci (formátování) filesystému je
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	tune2fs
+	fsck
+	mount
+	dump
+	
+Otázka 65: Souhrnou velikost souborů (adresářového) podstromu získáte povelem
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	df
+	df .
+	mc
+	sumdir
+	
+Otázka 66: Kolik SA existuje po navázání IPsec tunelu mezi dvěma směrovači (nejsou-li mezitím žádné rušeny)?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	právě 3
+	právě 2
+	právě 1
+	právě 4
+	
+Otázka 67: Kolik "CNAME" záznamů může být zaneseno pro jeden konkrétní hostname
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	nejvýše 3
+	libovolný počet
+	ani jeden
+	právě 2
+	
+Otázka 68: Veřejný i privátní klíč k SSH lze vytvořit pomocí příkazu
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ssh-agent
+	ssh-keygen
+	ssh-client
+	ssh-keys
+	
+Otázka 70: Kdy se automaticky spouští fsck
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	nikdy se nespouští automaticky
+	může se spouštět při každém N-tém odpojení svazku
+	
+Otázka 71: Co je uloženo v souboru ~/.ssh/known_hosts?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	zkratky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	identifikace známých serverů (jejich otisky)
+	autorizované veřejné klíče
+	
+Otázka 72: Označte v praxi použitelná pokračování řádku "ifconfig pfsync0" při nastavování pfsync/OpenBSD
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	inet 10.0.0.1 netmask 255.255.255.0
+	syncdev msk0 syncpeer 10.0.0.1
+	syncdev lo syncpeer 127.0.0.1
+	syncdev msk0
+	
+Otázka 73: Pokud je mezi YP klientem a serverem router, pak
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	je nevyhnutelné dovolit šíření broadcastu skrze router
+	není zapotřebí nic dělat, klient vždy objeví server broadcastem
+	taková konfigurace nemůže nikdy fungovat
+	
+Otázka 74: PPTP
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	je rovnocenný ekvivalent technologie IPsec
+	umožňuje realizaci road warrior
+	nahradilo méně bezpečné L2TP/IPsec
+	je proprietárním protokolem, který tak není v prostředí OSS UNIXů implementován
+	
+Otázka 75: Statistiku přenosů (per mailer) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	purgestat
+	mailstats
+	mailq
+	newaliases
+	
+Otázka 76: Označte všechny povely, které dokáží přidat uživatele do skupiny
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	gawk
+	groupmod
+	gpasswd
+	ghostscript
+	
+Otázka 77: Zobrazení systémových položek (datových struktur) získáte na BSD příkazem
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	fstat
+	openconfig
+	pstat
+	netstat
+	
+Otázka 78: Označte všechny povely, které zavedou nového uživatele
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	useradd
+	make user
+	configure
+	userdel
+	
+Otázka 80: Seznam běžících procesů vypisuje program
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ps
+	netstat
+	sysctl
+	pstat
+	
+Otázka 81: Označte všechny možnosti jak převést stanici s OpenBSD do single-user režimu
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	kill -s TERM 1 v klasickém shellu
+	boot -s v boot shellu
+	init 1 v klasickém shellu
+	shutdown
+	
+Otázka 82: Inoda s číslem 0 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	zavaděč (boot loader)
+	seznam vadných bloků
+	kořen filesystému
+	undelete adresář
+	
+Otázka 84: Jaký je rozdíl mezi primárním a sekundárním DNS serverem?
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	žádný, mají identickou konfiguraci
+	primár obsahuje důležitější záznamy jak sekundár
+	žádný, sekundár ale může podporovat rekursivní DNS dotazy
+	
+Otázka 85: Pro povel "dig @nejaky.server.cz zone axfr" platí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	vždy vypíše kompletní obsah dané zóny a daný server to nemůže omezit
+	za všech okolností skončí s chybou, protože AXFR nelze iniciovat z konzole
+	vždy vypíše A i MX-záznamy serveru, pokud se nachází v dané zóně
+	
+Otázka 87: Při zjišťování doménového jména k IP A.B.C.D se hledá
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	PTR pro D.C.B.A.in-addr.
+	PTR pro A.B.C.D.in-addr.arpa
+	PTR pro A.B.C.D
+	
+Otázka 88: Označte položky z AH hlavičky
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	číslo čílového stroje a TCP portu
+	next header
+	ICV
+	SPI
+	
+Otázka 89: Označte jen ty parametry, které vyžaduje postfix, aby přijímal poštu pro lokální uživatele
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	mydestination
+	masquerade_domains
+	myorigin
+	relay_domains
+	
+Otázka 90: Příkaz sloužící k připojení filesystému je
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	dump
+	mkfs
+	mount
+	umount
+	
+Otázka 91: Označte všechny záznamy ekvivaletní s "mail.cuni.cz MX 10 relay.cuni.cz"
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	"mail MX 10 relay." při ORIGIN cuni.cz
+	"mail. MX 10 relay" při ORIGIN cuni.cz
+	"mail MX 10 relay.cuni.cz" při ORIGIN cuni.cz
+	
+Otázka 92: Záloha na úrovni 0 značí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	prázdnou zálohu
+	poslední (aktuální) zálohu
+	nedefinovanou zálohu
+	
+Otázka 93: Označte pravdivé výroky o snapshotu filesystému
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	nikdy ho nelze připojit v režimu read-write
+	zatím nebyl implementován, existuje jen v teoretických úvahách
+	lze ho implementovat pomocí sparse file
+	lze ho připojovat a dodatečně zálohovat
+	
+Otázka 94: Seznam běžících RPC služeb lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	rpcstat, a to i vzdáleně (přes síť)
+	rpcinfo, spouštěný výhradně lokálně na konkrétním stroji
+	seznam je uveden v /etc/rpc
+	rpcinfo, a to i vzdáleně (přes síť)
+	
+Otázka 95: Exportované svazky jsou na NFS serveru uvedeny v
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	/etc/rc
+	/etc/imports
+	/etc/passwd
+	/etc/fstab
+	
+Otázka 96: Na OpenBSD se o příjem logovacích zpráv standardně stará démon
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	kernellogd
+	newsyslog
+	loggerd
+	syslog/syslogd
+	
+Otázka 98: Kde najdete obnovené soubory po fsck
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	v domácím adresáři uživatele root
+	na své USB klíčence
+	v adresáři lost+found
+	v adresáři tmp
+	
+Otázka 99: Označte procesy, které musí být přítomné na YP klientovi
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ypserv
+	ypbind
+	keyserv
+	amd
+	
+Otázka 100: Firewall na OpenBSD se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+	ipsecctl
+	pfstat
+	iptables
+	pfctl
+	
+Otázka 1: Parametry kernelu změníte na BSD/Linuxu příkazem
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	konfig
+	setkernel
+	configure
+	setparams
+	
+Otázka 2: Příkaz sloužící k inicializaci (formátování) filesystému je
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	mount
+	fsck
+	dump
+	restore
+	
+Otázka 3: Co se stane, pokud je restarován NFSv3 server
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	klient vždy zatuhne, a jádro jeho O/S zůstane neodvolatelně viset na interním dead-locku
+	klient musí přemountovat daný NFS svazek, neboť NFSv3 je stavový protokol
+	klient vždy okamžitě spadne a je nutné ho restartovat
+	
+Otázka 4: Omezení IP adres, které mohou na primárním DNS provést AXFR zajistí parametr
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	masters
+	file
+	allow-update
+	listen-on
+	
+Otázka 5: Kdy se automaticky spouští fsck
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	může se spouštět každý N-tý den, typicky těsně před připojením svazku
+	může se spouštět před každým N-tým připojením svazku
+	po nekorektním odpojení svazku a následném startu systému
+	nikdy se nespouští automaticky
+	
+Otázka 6: Pro povel "dig @nejaky.server.cz zone axfr" platí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	vždy vypíše A i MX-záznamy serveru, pokud se nachází v dané zóně
+	za všech okolností skončí s chybou, protože AXFR nelze iniciovat z konzole
+	vždy vypíše kompletní obsah dané zóny a daný server to nemůže omezit
+	
+Otázka 7: Sparse file je
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	řidký soubor s dírami vzniklými HW závadami diskových bloků
+	speciální blokové zařízení obdobné /dev/null
+	soubor pana Sparse
+	soubor s dírami vzniklými například instrukcí lseek
+	
+Otázka 8: O kolik zpráv je rychlejší aggressive mód než main mód ve fázi 1 IKE?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	právě o 2
+	právě o 1
+	právě o 6
+	
+Otázka 9: Exportované svazky jsou na NFS serveru uvedeny v
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	/etc/passwd
+	/etc/fstab
+	/etc/rc
+	/etc/exports
+	
+Otázka 10: Na veřejné síti někdo odchytí náš ESP paket, o kterém víme že obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	pozorovatel ví, že se jedná o ESP v režimu transport
+	pozorovatel ví, že se jedná o ESP v režimu tunel
+	
+Otázka 11: Jaké oblasti obsahuje cylinder group typického UFS
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	oblast s inodami
+	informace o filesystému (super block)
+	zavaděč (boot block)
+	oblast s datovými bloky
+	cylinder group map
+	
+Otázka 12: Zpracování front sendmailu spustí příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	runq
+	purgestat
+	hoststat
+	newaliases
+	
+Otázka 14: Označte všechny záznamy ekvivaletní s "mail.cuni.cz MX 10 relay.cuni.cz"
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	"mail MX 10 relay" při ORIGIN cuni.cz
+	"mail MX 10 relay.cuni.cz" při ORIGIN cuni.cz
+	"mail MX 10 relay." při ORIGIN cuni.cz
+	"mail. MX 10 relay" při ORIGIN cuni.cz
+	
+Otázka 15: Pfsync na OpenBSD
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	synchronizuje pravidla firewallu, vcetne pravidel NAT/RDR
+	synchronizuje tabulku stavů
+	synchronizuje pravidla firewallu, bez pravidel NAT/RDR
+	synchronizuje soubory /etc/pf.conf
+	
+Otázka 16: Co je uloženo v souboru ~/.ssh/known_hosts?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	autorizované veřejné klíče
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	zkratky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	
+Otázka 17: Označte všechny pravdivé výroky o mbox
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	umožňuje uživateli rychlé vyhodnocování regulárních výrazů nad došlou poštou
+	podporuje složky v rámci schránky
+	nové e-maily se připisují na konec souboru schránky uživatele
+	vyžaduje funkční operaci zamykání souborů v cílovém adresáři
+	
+Otázka 18: Označte příkaz, který zobrazí obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	lpq
+	lprm
+	lpd
+	lpr
+	
+Otázka 19: Seznam běžících procesů vypisuje program
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	sysctl
+	netstat
+	pstat
+	vmstat
+	
+Otázka 20: Firewall na OpenBSD se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	pfstat
+	ipsecctl
+	iptables
+	
+Otázka 21: NAT pravidla se na OpenBSD aplikují
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	po aplikaci pravidel firewallu
+	i během aplikace pravidel firewallu (obě skupiny se mohou vzájemně mísit)
+	
+Otázka 22: Mezi selekcí a akcí musí být v /etc/syslog.conf (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	libovolný počet výplňových znaků (mezera, tabulátor, odřádkovač)
+	jeden nebo více tabulátorů
+	právě jeden tabulátor
+	libovolný počet mezer
+	
+Otázka 23: Program, který vypíše status otevřených souborů jednotlivých procesů se jmenuje
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	pstat
+	netstat
+	sysctl
+	vmstat
+	
+Otázka 24: Seznam běžících RPC služeb lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	seznam je uveden v /etc/rpc
+	rpcinfo, spouštěný výhradně lokálně na konkrétním stroji
+	rpcinfo, a to i vzdáleně (přes síť)
+	rpcstat, a to i vzdáleně (přes síť)
+	
+Otázka 25: Firewall OpenBSD (pf), Linuxu (iptables), ad. jsou vesměs firewally
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	aplikační
+	bezestavové
+	osobní
+	stavové
+	
+Otázka 26: Označte pravdivá tvrzení v kontextu LVM
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	logical volume se alokuje přímo z fyzického disku
+	brání nahrazování (vadných) disků v rámci volume group
+	
+Otázka 27: Jak musí být nastavena stanice s CARP, aby každou sekundu informovala o své přítomnosti?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	stanice s CARP o své přítomnosti vůbec neinformuje
+	advskew=1, advbase=0
+	takové nastavení nelze dosáhnout
+	
+Otázka 28: Kolik zpráv se používá ve fázi 2 IKE?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	právě 3
+	právě 1
+	právě 2
+	právě 6
+	
+Otázka 29: Sekundár bude kontaktovat příslušný DNS primár (označte všechny správné možnosti)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	nikdy ho kontaktovat nebude, nemá k tomu nikdy vůbec žádný důvod
+	jakmile dostane NOTIFY zprávu od primáru
+	po uplynutí doby specifikované v "Refresh" hodnotě SOA atributu
+	jen po uplynutí doby specifikované v "Expire" hodnotě SOA atributu
+	
+Otázka 30: Dojde ke zpracování paketu skrze AH. V kterém režimu (transport/tunel) vznikne větší výsledný AH paket?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	oba pakety jsou stejné, liší se jen hodnotami v IP hlavičce
+	AH transport je vždy větší
+	AH tunel je občas větší, ale ne vždy
+	
+Otázka 31: S čím se shoduje v m4 sendmail konfiguraci výraz $* < $+ >
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	Josef Novak
+	<>
+	Josek Novak <>
+	
+Otázka 32: Statistiku transferu (per host) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	hoststat
+	mailstats
+	purgestat
+	newaliases
+	
+Otázka 33: Označte všechny distribuované (síťové) souborové systémy
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	Lustre
+	NFS
+	OpenGFS
+	AFS
+	
+Otázka 34: Specifikace "masters" v zone bloku ve /var/named/etc/named.conf je smysluplná pro
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	zone blok typu slave
+	zone blok typu hint
+	zone blok typu chaos
+	zone blok typu master
+	
+Otázka 35: Příkaz používaný pro zazálohování filesystému je
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	newfs
+	mkfs
+	dump
+	umount
+	
+Otázka 36: Příkaz sloužící k připojení filesystému je
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	dump
+	mount
+	newfs
+	restore
+	
+Otázka 37: CARP byl nastaven s advbase=200. Kterým příkazem lze tuto hodnotu změnit?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	sysconfig
+	carp
+	sysctl
+	pfctl
+	
+Otázka 38: Jakou funkci plní amd program na OpenBSD
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	dynamicky připojuje svazky (lokální i síťové) podle své konfigurace
+	amd je ekvivalent programu mount
+	dynamicky připojuje svazky (výhradně síťové) podle své konfigurace
+	zkratka pro another-memory-dumper, jedná o dumper paměti
+	
+Otázka 39: Jaký je rozdíl mezi primárním a sekundárním DNS serverem?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	žádný, sekundár ale může podporovat rekursivní DNS dotazy
+	žádný, mají identickou konfiguraci
+	primár obsahuje důležitější záznamy jak sekundár
+	
+Otázka 41: Počítač s hostname "cuni" v doméně "cz" bude mít FQDN
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	mff.cuni.cz
+	cuni.cuni.cz
+	cuni.cuni.cz.
+	
+Otázka 42: Označte všechny pravdivé výroky o velkém diskovém bloku
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	hodí se na svazky (ext2...) s malým počtem obrovských souborů
+	oproti menšímu bloku typicky zrychluje vstupně-výstupní operace
+	hodí se na svazky (ext2...) s obrovským počtem malých souborů
+	oproti menšímu bloku vede k většímu plýtvání diskovou kapacitou
+	
+Otázka 43: Inoda s číslem 2 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	undelete adresář
+	zavaděč (boot loader)
+	taková inoda neexistuje
+	seznam vadných bloků
+	
+Otázka 44: Kolik fází je prováděno v rámci IKE/ISAKMP
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	právě jedna
+	nejméně šest
+	právě dvě
+	právě tři
+	
+Otázka 45: Jak vyřešíte poškození super bloku bez ztráty dat
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	modlitbou
+	použítím fsck -b se záložním super blokem
+	nelze vůbec řešit, svazek je nenávratně ztracen
+	obnovou svazku ze záložního média
+	
+Otázka 46: Označte všechny povely, které dokáží přidat uživatele do skupiny
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	gawk
+	groupmod
+	groupadd
+	ghostscript
+	
+Otázka 47: Kolik inodů zabírá adresář
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	žadný, adresář nepotřebuje alokovat žádnou inodu
+	v průměru 1,5
+	3
+	2
+	
+Otázka 48: Seznam TCP socketů v režimu LISTEN získáte povelem (vč. parametrů)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	netstat -a
+	netstat -an
+	route -n
+	netstat -n
+	
+Otázka 49: Utilita mrtg
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	vytvaří statistiky přístupu k serveru, údaje čte z /var/log/wtmp
+	čte hodnoty průtoku jak z adaptérů tak i skrze SNMP a zapisuje je v portabilním formátu do SQL báze pro pozdější využití
+	čte hodnoty průtoku z jednotlivých adaptérů a zapisuje je do MySQL databáze
+	
+Otázka 50: Záloha na úrovni 0 značí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	prázdnou zálohu
+	nedefinovanou zálohu
+	poslední (aktuální) zálohu
+	
+Otázka 51: Příkaz sloužící k opravě filesystému je
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	fsck
+	dump
+	newfs
+	mkfs
+	
+Otázka 52: Označte procesy nutné pro provoz NFS serveru
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	portmap
+	nfs/nfsd
+	mountd
+	ypbind
+	
+Otázka 53: Seznam všech nainstalovaných balíčků na OpenBSD získáte jako výstup z
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	pkg_info
+	pkg_registry
+	pkg_list
+	pkg_delete
+	
+Otázka 54: Glue záznam
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	pomáhá kontaktovat DNS, na které se oddelegovává, a jehož doménové jméno je v oné oddelegovávané (pod)zóně
+	je každý NS záznam v zóně
+	udává doménové jméno primárního serveru nadřazené zóny
+	je korektní umisťovat ke všem NS záznamům zóny
+	
+Otázka 55: Kolik diskových datových bloků zabírá roura/socket
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	právě 2
+	právě 1
+	právě 3
+	podle velikosti roury/socketu
+	
+Otázka 56: Na OpenBSD obsahuje nainstalovaný soubor /var/named/etc/root.hint (ev. root.hint ve /var/named)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	keš všech záznamů prošlých skrze daný server
+	seznam všech name serverů dosažitelných bez pomoci routeru
+	seznam všech name serverů druhé úrovně
+	návody/hinty pro uživatele "root"
+	
+Otázka 57: Označte příkazy, které zastaví (se správnými parametry) běžící systém bez opětovného startu
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	poweroff
+	shutdown
+	halt
+	init
+	
+Otázka 58: Položky v zónovém souboru, které definují DNS servery dané zóny jsou typu
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	NS
+	A
+	MX
+	PTR
+	
+Otázka 59: Označte položky z AH hlavičky
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	next header
+	ICV
+	SPI
+	číslo čílového stroje a TCP portu
+	
+Otázka 60: Statistiku přenosů (per mailer) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	mailq
+	runq
+	hoststat
+	purgestat
+	
+Otázka 61: Označte pravdivé tvrzení v kontextu DNS
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	doména a zóna jsou synonyma pro tentýž objekt
+	počet delegování je v zóně omezen na 16, v doméně na 32
+	obsah domény je částí příslušné zóny, nikdy nejsou shodné
+	
+Otázka 65: K inicializaci master serveru YP domény slouží příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	ypbind
+	ypserv
+	rpc.yppasswdd
+	
+Otázka 67: Jaké adresáře využívá maildir formát pro svoji činnost
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	pouze cur a new
+	cur, new a tmp
+	pouze cur
+	žádné adresáře nepoužívá, e-maily připisuje do jediného souboru
+	
+Otázka 68: Pokud na běžícím OpenBSD serveru smažeme obsah adresáře /etc/ssh vyjma souborů *_config, pak po restartu
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	se žádný ssh klient již nepřipojí
+	ssh server už nikdy nenaběhne
+	se vůbec nic nestane, ssh klienti nebudou nijak varováni
+	
+Otázka 69: Při zjišťování doménového jména k IP A.B.C.D se hledá
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	PTR pro D.C.B.A.in-addr.arpa
+	PTR pro D.C.B.A.in-addr.
+	PTR pro A.B.C.D.in-addr.arpa
+	PTR pro A.B.C.D
+	
+Otázka 70: Bázi poštovních aliasů přegeneruje příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	newaliases
+	purgestat
+	hoststat
+	mailq
+	
+Otázka 71: Souhrnou velikost souborů (adresářového) podstromu získáte povelem
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	sumdir
+	df
+	mc
+	df .
+	
+Otázka 72: RDR pravidla se na OpenBSD aplikují
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	po aplikaci pravidel firewallu
+	defaultně před pravidly firewallu, tj. filter uvidí transformovaný paket
+	i během aplikace pravidel firewallu (obě skupiny se mohou vzájemně mísit)
+	
+Otázka 73: K inicializaci záložního (slave) serveru YP domény slouží příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	rpc.yppasswdd
+	ypserv
+	ypbind
+	
+Otázka 75: Označte všechny možnosti jak převést stanici s OpenBSD do single-user režimu
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	shutdown
+	kill -9 1 v klasickém shellu
+	init 1 v klasickém shellu
+	
+Otázka 77: Inoda s číslem 1 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	zavaděč (boot loader)
+	taková inoda neexistuje
+	kořen filesystému
+	undelete adresář
+	
+Otázka 78: Detekci špatně nastavené směrovací tabulky do nějaké konkrétní sítě provedete příkazem
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	top
+	ifconfig
+	mc
+	ping
+	
+Otázka 79: Backscatter
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	je plně eliminován pomocí blacklistů
+	nelze nikdy a za žádných podmínek eliminovat či omezit
+	je standardně postfixem i dalšími SMTP servery odmítán
+	
+Otázka 80: Kde najdete obnovené soubory po fsck
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	v kořenovém adresáři
+	v adresáři lost+found
+	na své USB klíčence
+	v adresáři tmp
+	
+Otázka 81: Kolik "CNAME" záznamů může být zaneseno pro jeden konkrétní hostname
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	nejvýše 3
+	ani jeden
+	právě 2
+	libovolný počet
+	
+Otázka 82: Inoda obsahuje
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	gid vlastníka souboru
+	velikost souboru
+	odkazy na datové bloky
+	uid vlastníka souboru
+	
+Otázka 83: Firewall na Linuxu (iptables) se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	ipctl
+	pfctl
+	iptablesctl
+	iptables
+	
+Otázka 84: Veřejný i privátní klíč k SSH lze vytvořit pomocí příkazu
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	ssh-agent
+	ssh-client
+	ssh-keys
+	ssh-keygen
+	
+Otázka 85: Kolik diskových datových bloků zabírá soubor
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	právě 1
+	právě 2
+	právě 3
+	žadný, soubor nepotřebuje alokovat žádný datový blok
+	
+Otázka 86: K čemu se využívá adresář /var/empty (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	slouží pro prvního otroka při přihlašování skrze ssh
+	slouží pro named jako adresář jeho chroot volání
+	nemá žádné využití, může se smazat, vznikl omylem a je udržován z historických důvodů
+	slouží pro interní potřeby všech chroot volání
+	
+Otázka 88: Co je uloženo v souboru ~/.ssh/authorized_keys?
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	zkrátky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	identifikace známých serverů (jejich otisky)
+	
+Otázka 89: Co způsobí v OpenBSD firewallu řádek "block in"
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	zablokuje vstup paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	
+Otázka 90: IKE/ISAKMPD provádí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	volbu IPsec tunelů, kterými pak směruje definované toky
+	funguje jako směrovač v IPsec vrstvě
+	autentizaci uzlů
+	kompletní šifrování všech paketů zpracovávaných v IPsec
+	
+Otázka 91: Obsah sendmail front vypíše příkaz
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	runq
+	mailstats
+	newaliases
+	mailq
+	
+Otázka 92: Označte procesy, které musí být přítomné na YP klientovi
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	keyserv
+	amd
+	ypupdated
+	ypserv
+	
+Otázka 93: Označte pravdivé výroky o snapshotu filesystému
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	zatím nebyl implementován, existuje jen v teoretických úvahách
+	nikdy ho nelze připojit v režimu read-only
+	nikdy ho nelze připojit v režimu read-write
+	
+Otázka 94: Inoda s číslem 0 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	zavaděč (boot loader)
+	seznam vadných bloků
+	kořen filesystému
+	taková inoda neexistuje
+	
+Otázka 95: Seznam všech super bloků na ext2 filesystému lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	du
+	mke2fs (mkfs)
+	df
+	badblock
+	
+Otázka 96: Soubor /etc/nologin na OpenBSD způsobí, že se
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	uživatelé uvedení v tomto souboru nepřihlásí
+	po restartu stroj automaticky převede na běhovou úroveň 9
+	zobrazí obsah tohoto souboru, uživatel se přihlásí a může pracovat nejvýše 5 minut
+	
+Otázka 97: Pokud je mezi YP klientem a serverem router, pak
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	je nutné uvést seznam YP serverů (alespoň jednoho) v /etc/yp/název_domény
+	taková konfigurace nemůže nikdy fungovat
+	je nevyhnutelné dovolit šíření broadcastu skrze router
+	není zapotřebí nic dělat, klient vždy objeví server broadcastem
+	
+Otázka 98: Zobrazení systémových položek (datových struktur) získáte na BSD příkazem
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	fstat
+	netstat
+	openconfig
+	pstat
+	
+Otázka 99: Příkaz snmpwalk
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	vylistuje obsah požadované části SNMP stromu (báze)
+	najde všechny SNMP servery v okolí
+	nastaví SNMP server, zoptimalizuje jeho výkon
+	projde obsah SNMP báze a najde v ní všechny chyby
+	
+Otázka 100: Co bude zapsáno při last-close sémantice, po instrukcích oOwWWwcC (open/writeblock/close dvou procesů nad týmž souborem, rozlišeno kapitálkami)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+	první w, druhé W
+	první W, druhé W
+	první W, druhé w
+	první w, druhé w
+	
+Otázka 2: Pokud je mezi YP klientem a serverem router, pak
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	je nutné uvést seznam YP serverů (alespoň jednoho) v /etc/yp/název_domény
+	není zapotřebí nic dělat, klient vždy objeví server broadcastem
+	je nevyhnutelné dovolit šíření broadcastu skrze router
+	taková konfigurace nemůže nikdy fungovat
+	
+Otázka 3: Statistiku přenosů (per mailer) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	purgestat
+	mailq
+	newaliases
+	runq
+	
+Otázka 4: Označte příkaz, který může modifikovat obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	lpq
+	lpd
+	lpr
+	
+Otázka 5: Záloha na úrovni 0 značí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	poslední (aktuální) zálohu
+	plnou zálohu
+	nedefinovanou zálohu
+	prázdnou zálohu
+	
+Otázka 6: Omezení IP adres, které mohou na primárním DNS provést AXFR zajistí parametr
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	file
+	allow-transfer
+	listen-on
+	masters
+	
+Otázka 7: Backscatter
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	je běžná e-mailová korespondence, kterou chce správce doručovat s maximální prioritou
+	je side-efekt činnosti, která vede k zasílání e-mailových nedoručenek nevinné oběti
+	je technika, která umožňuje testování a ladění výkonu SMTP serverů
+	je jiné označení pro ICMP
+	
+Otázka 8: CARP byl nastaven s advbase=200. Kterým příkazem lze tuto hodnotu změnit?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	carp
+	sysctl
+	pfctl
+	ifconfig
+	
+Otázka 9: Označte všechny možnosti jak převést stanici s OpenBSD do single-user režimu
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	init 1 v klasickém shellu
+	shutdown
+	kill -9 1 v klasickém shellu
+	
+Otázka 10: Inoda s číslem 2 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	kořen filesystému
+	zavaděč (boot loader)
+	taková inoda neexistuje
+	seznam vadných bloků
+	
+Otázka 11: Jak musí být nastavena stanice s CARP, aby každou sekundu informovala o své přítomnosti?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	stanice s CARP o své přítomnosti vůbec neinformuje
+	takové nastavení nelze dosáhnout
+	advskew=1, advbase=0
+	
+Otázka 12: Označte všechny pravdivé výroky o maildir
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	podporuje sdílení složek mezi více uživateli
+	nové e-maily alokují vždy nový soubor ve schránce uživatele
+	nové e-maily se připisují na konec souboru schránky uživatele
+	podporuje složky v rámci schránky
+	
+Otázka 13: PPTP
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	umožňuje realizaci road warrior
+	je rovnocenný ekvivalent technologie IPsec
+	je proprietárním protokolem, který tak není v prostředí OSS UNIXů implementován
+	nahradilo méně bezpečné L2TP/IPsec
+	
+Otázka 14: Seznam TCP socketů v režimu LISTEN získáte povelem (vč. parametrů)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	netstat -n
+	ifconfig -a
+	route -n
+	
+Otázka 15: Položky v zónovém souboru, které definují DNS servery dané zóny jsou typu
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	A
+	CNAME
+	PTR
+	MX
+	
+Otázka 16: Označte příkaz, který zobrazí obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	lpr
+	lpd
+	lprm
+	lpq
+	
+Otázka 17: Označte odpovědi, které vymezují množiny zpráv zalogovaných Syslog-em na OpenBSD při selektoru auth.info
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	zprávy na méně důležitých úrovních jak info v modulu auth
+	zprávy na méně důležitých úrovních jak auth v modulu info
+	zprávy na úrovni auth v modulu info
+	
+Otázka 18: Označte všechny záznamy ekvivaletní s "mail.cuni.cz MX 10 relay.cuni.cz"
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	"mail MX 10 relay.cuni.cz" při ORIGIN cuni.cz
+	"mail MX 10 relay" při ORIGIN cuni.cz
+	"mail. MX 10 relay" při ORIGIN cuni.cz
+	"mail MX 10 relay." při ORIGIN cuni.cz
+	
+Otázka 19: Počítač s hostname "cuni" v doméně "cz" bude mít FQDN
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	cuni.cuni.cz
+	cuni.cz
+	cuni.cz.
+	mff.cuni.cz
+	
+Otázka 20: Výpadek DNS serveru může nahradit seznam jmen a IP v souboru
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	/etc/pf.conf
+	/etc/bind.allow
+	/var/named/etc/named.conf
+	/root/.bash_history
+	
+Otázka 21: Pro povel "dig @nejaky.server.cz zone axfr" platí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	vždy vypíše kompletní obsah dané zóny a daný server to nemůže omezit
+	za všech okolností skončí s chybou, protože AXFR nelze iniciovat z konzole
+	může vypsat kompletní obsah dané zóny
+	vždy vypíše A i MX-záznamy serveru, pokud se nachází v dané zóně
+	
+Otázka 22: Jaké adresáře využívá maildir formát pro svoji činnost
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	žádné adresáře nepoužívá, e-maily připisuje do jediného souboru
+	pouze cur
+	pouze cur a new
+	
+Otázka 23: Co způsobí v OpenBSD firewallu řádek "block in"
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	zablokuje vstup paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	
+Otázka 24: Označte položky z AH hlavičky
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	next header
+	ICV
+	číslo čílového stroje a TCP portu
+	SPI
+	
+Otázka 25: Kolik musí existovat autoritativních DNS serverů k dané zóně?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	žádný není potřeba
+	alespoň jeden
+	právě dva a více
+	právě dva
+	
+Otázka 26: Tabulku (jako celek, nikoliv její obsah) nelze v pf na OpenBSD zrušit, pokud
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	je označena jako const
+	je zmíněna v /etc/pf.conf
+	je označena jako volatile
+	je označena jako persist
+	
+Otázka 27: Kde najdete obnovené soubory po fsck
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	v adresáři lost+found
+	v kořenovém adresáři
+	na své USB klíčence
+	v domácím adresáři uživatele root
+	
+Otázka 28: Na žurnálovém souborovém filesystému jsou atomické operace typicky
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	mkdir
+	unlink
+	cp -r
+	rmdir
+	
+Otázka 29: Parametry kernelu změníte na BSD/Linuxu příkazem
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	sysctl
+	setparams
+	konfig
+	configure
+	
+Otázka 30: Na veřejné síti někdo odchytí náš ESP paket, o kterém víme že obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	pozorovatel ví, že se jedná o ESP v režimu tunel
+	pozorovatel ví, že se jedná o ESP v režimu transport
+	
+Otázka 31: Kdy se automaticky spouští fsck
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	nikdy se nespouští automaticky
+	může se spouštět při každém N-tém odpojení svazku
+	
+Otázka 32: Firewall na Linuxu (iptables) se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	ipctl
+	iptablesctl
+	iptables
+	pfctl
+	
+Otázka 34: Mezi selekcí a akcí musí být v /etc/syslog.conf (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	libovolný počet výplňových znaků (mezera, tabulátor, odřádkovač)
+	libovolný počet mezer
+	právě jeden tabulátor
+	
+Otázka 35: Kolik diskových datových bloků zabírá soubor
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	právě 1
+	žadný, soubor nepotřebuje alokovat žádný datový blok
+	právě 2
+	právě 3
+	
+Otázka 36: Označte všechny pravdivé výroky o velkém diskovém bloku
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	hodí se na svazky (ext2...) s obrovským počtem malých souborů
+	nemá žádný vliv na výslednou rychlost FS, není důvod ho preferovat před malými bloky
+	
+Otázka 37: Označte ty parametry postfixu, které umožňují relay pošty jen z vymezené části šítě
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	relayhost
+	myorigin
+	mynetworks
+	mydestination
+	
+Otázka 38: Zobrazení systémových položek (datových struktur) získáte na BSD příkazem
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	netstat
+	pstat
+	openconfig
+	fstat
+	
+Otázka 39: IKE/ISAKMPD provádí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	funguje jako směrovač v IPsec vrstvě
+	volbu IPsec tunelů, kterými pak směruje definované toky
+	kompletní šifrování všech paketů zpracovávaných v IPsec
+	
+Otázka 40: Seznam dostupných YP map lze na OpenBSD získat jako výstup příkazu
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	ypbind
+	ypinit
+	ypserv
+	ypcat
+	
+Otázka 41: Označte všechny distribuované (síťové) souborové systémy
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	OpenGFS
+	NFS
+	Lustre
+	AFS
+	
+Otázka 42: S čím se shoduje v m4 sendmail konfiguraci výraz $* < $+ >
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	Josef Novak
+	< jn@x.y>
+	Josek Novak <>
+	Josef Novak < jn@x.y >
+	
+Otázka 43: Co je uloženo v souboru ~/.ssh/known_hosts?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	autorizované veřejné klíče
+	zkratky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	
+Otázka 44: K čemu se využívá adresář /var/empty (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	slouží pro named jako adresář jeho chroot volání
+	slouží pro interní potřeby všech chroot volání
+	nemá žádné využití, může se smazat, vznikl omylem a je udržován z historických důvodů
+	
+Otázka 45: Označte pravdivá tvrzení v kontextu LVM
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	logical volume se alokuje přímo z fyzického disku
+	brání nahrazování (vadných) disků v rámci volume group
+	
+Otázka 46: Příkaz sloužící k opravě filesystému je
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	mkfs
+	tune2fs
+	umount
+	mount
+	
+Otázka 47: Statistiku transferu (per host) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	hoststat
+	mailstats
+	newaliases
+	runq
+	
+Otázka 48: O kolik zpráv je rychlejší aggressive mód než main mód ve fázi 1 IKE?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	právě o 1
+	právě o 6
+	právě o 2
+	
+Otázka 49: Seznam připojených NFS klientů, resp. seznam exportovaných mount-pointů, lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	showmount, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	showmount, spouštěného výhradně jen na NFS serveru
+	rpcinfo, spouštěného výhradně jen na NFS serveru
+	rpcinfo, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	
+Otázka 50: Inoda obsahuje
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	odkazy na datové bloky
+	uid vlastníka souboru
+	velikost souboru
+	gid vlastníka souboru
+	
+Otázka 51: Soubor /etc/nologin na OpenBSD způsobí, že se
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	žádný uživatel k systému nepřihlásí, typicky s výjimkou skupiny staff
+	uživatelé uvedení v tomto souboru nepřihlásí
+	zobrazí obsah tohoto souboru po ověření přihlašovacích údajů
+	po restartu stroj automaticky převede na běhovou úroveň 9
+	
+Otázka 52: Dojde ke zpracování paketu skrze AH. V kterém režimu (transport/tunel) vznikne větší výsledný AH paket?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	AH transport je vždy větší
+	AH tunel je občas větší, ale ne vždy
+	oba pakety jsou stejné, liší se jen hodnotami v IP hlavičce
+	AH tunel je vždy větší
+	
+Otázka 53: Program, který vypíše status otevřených souborů jednotlivých procesů se jmenuje
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	vmstat
+	fstat
+	pstat
+	netstat
+	
+Otázka 54: Kolik fází je prováděno v rámci IKE/ISAKMP
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	právě tři
+	právě jedna
+	nejméně šest
+	právě dvě
+	
+Otázka 55: Označte procesy nutné pro provoz NFS serveru
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	amd
+	mountd
+	nfs/nfsd
+	portmap
+	
+Otázka 56: NFS svazek se na klientovi připojí pomocí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	showmount
+	mount, resp. mount.nfs či mount_nfs
+	nfsstat
+	rpcinfo
+	
+Otázka 57: Obsah sendmail front vypíše příkaz
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	runq
+	mailstats
+	hoststat
+	newaliases
+	
+Otázka 58: Sparse file je
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	soubor pana Sparse
+	řidký soubor s dírami vzniklými HW závadami diskových bloků
+	synonymum pro swap file
+	speciální blokové zařízení obdobné /dev/null
+	
+Otázka 59: Seznam běžících procesů vypisuje program
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	sysctl
+	ps
+	pstat
+	netstat
+	
+Otázka 60: Seznam běžících RPC služeb lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	rpcinfo, spouštěný výhradně lokálně na konkrétním stroji
+	rpcstat, a to i vzdáleně (přes síť)
+	seznam je uveden v /etc/rpc
+	rpcinfo, a to i vzdáleně (přes síť)
+	
+Otázka 61: Kolik inodů zabírá (pojmenovaná) roura/socket
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	1
+	v průměru 1,5
+	žadný, roura ani socket nepotřebuje alokovat žádnou inodu
+	2
+	
+Otázka 62: Firewall na OpenBSD se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	pfctl
+	pfstat
+	iptables
+	ipsecctl
+	
+Otázka 63: Označte pravdivé výroky o snapshotu filesystému
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	zatím nebyl implementován, existuje jen v teoretických úvahách
+	nikdy ho nelze připojit v režimu read-only
+	nikdy ho nelze připojit v režimu read-write
+	
+Otázka 64: Co způsobí na OpenBSD řádek +:*:::::/sbin/nologin v passwd?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, ale poslední položka je v nich změněna na /sbin/nologin
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, pokud mají poslední položku /sbin/nologin
+	tento řádek je nekorektní, nebude nijak interpretován
+	všichni lokálně definovaní uživatelé se již ke stroji nebudou moci připojit
+	
+Otázka 65: Kolik zpráv se používá ve fázi 2 IKE?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	právě 2
+	právě 6
+	právě 1
+	
+Otázka 66: Co se stane, pokud je restarován NFSv3 server
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	klient musí přemountovat daný NFS svazek, neboť NFSv3 je stavový protokol
+	klient vždy zatuhne, a jádro jeho O/S zůstane neodvolatelně viset na interním dead-locku
+	klient vždy okamžitě spadne a je nutné ho restartovat
+	principielně může klient po restartu serveru nadále pracovat, neboť NFSv3 je bezestavový protokol
+	
+Otázka 68: Firewall OpenBSD (pf), Linuxu (iptables), ad. jsou vesměs firewally
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	osobní
+	bezestavové
+	aplikační
+	stavové
+	
+Otázka 69: AH paket obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	jedná se výhradně o AH v režimu tunel
+	jedná se bezvýhradně o AH v režimu transport
+	o režimu AH, transport nebo tunel, nelze nic říci
+	něco takového se v případě AH vůbec nestane
+	
+Otázka 71: Detekci špatně nastavené směrovací tabulky do nějaké konkrétní sítě provedete příkazem
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	top
+	mc
+	ping
+	nettop
+	
+Otázka 72: Jaký je rozdíl mezi primárním a sekundárním DNS serverem?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	žádný, mají identickou konfiguraci
+	primár obsahuje důležitější záznamy jak sekundár
+	žádný, sekundár ale může podporovat rekursivní DNS dotazy
+	
+Otázka 73: Co je uloženo v souboru ~/.ssh/authorized_keys?
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	identifikace známých serverů (jejich otisky)
+	zkrátky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	autorizované veřejné klíče
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	
+Otázka 74: Příkaz snmpwalk
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	projde obsah SNMP báze a najde v ní všechny chyby
+	najde všechny SNMP servery v okolí
+	nastaví SNMP server, zoptimalizuje jeho výkon
+	
+Otázka 75: Bázi poštovních aliasů přegeneruje příkaz
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	purgestat
+	newaliases
+	mailq
+	runq
+	
+Otázka 76: Seznam všech super bloků na ext2 filesystému lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	df
+	du
+	badblock
+	fsck
+	
+Otázka 77: Označte pravdivé tvrzení v kontextu DNS
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	doména a zóna jsou synonyma pro tentýž objekt
+	počet delegování je v zóně omezen na 16, v doméně na 32
+	obsah domény je částí příslušné zóny, nikdy nejsou shodné
+	obsah zóny je částí příslušné domény
+	
+Otázka 78: Exportované svazky jsou na NFS serveru uvedeny v
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	/etc/rc
+	/etc/fstab
+	/etc/imports
+	/etc/exports
+	
+Otázka 80: Seznam všech nainstalovaných balíčků na OpenBSD získáte jako výstup z
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	pkg_registry
+	pkg_list
+	pkg_add
+	pkg_delete
+	
+Otázka 81: Veřejný i privátní klíč k SSH lze vytvořit pomocí příkazu
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	ssh-keys
+	ssh-agent
+	ssh-keygen
+	ssh-client
+	
+Otázka 82: Backscatter
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	je plně eliminován pomocí blacklistů
+	nelze nikdy a za žádných podmínek eliminovat či omezit
+	je standardně postfixem i dalšími SMTP servery odmítán
+	
+Otázka 83: Na OpenBSD obsahuje nainstalovaný soubor /var/named/etc/root.hint (ev. root.hint ve /var/named)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	seznam všech name serverů druhé úrovně
+	keš všech záznamů prošlých skrze daný server
+	seznam kořenových DNS serverů
+	návody/hinty pro uživatele "root"
+	
+Otázka 84: Jaké oblasti obsahuje cylinder group typického UFS
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	oblast s ovladači
+	oblast s MBR
+	oblast s fdisk tabulkou
+	
+Otázka 85: Příkaz používaný pro zazálohování filesystému je
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	mount
+	mkfs
+	dump
+	fsck
+	
+Otázka 86: Co bude zapsáno při last-close sémantice, po instrukcích oOwWWwcC (open/writeblock/close dvou procesů nad týmž souborem, rozlišeno kapitálkami)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	první w, druhé W
+	první W, druhé W
+	první W, druhé w
+	první w, druhé w
+	
+Otázka 87: Označte procesy, které musí být přítomné na YP klientovi
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	ypbind
+	ypupdated
+	keyserv
+	amd
+	
+Otázka 88: Pokud na běžícím OpenBSD serveru smažeme obsah adresáře /etc/ssh vyjma souborů *_config, pak po restartu
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	se žádný ssh klient již nepřipojí
+	ssh server už nikdy nenaběhne
+	se vůbec nic nestane, ssh klienti nebudou nijak varováni
+	
+Otázka 89: Souhrnou velikost souborů (adresářového) podstromu získáte povelem
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	du -s .
+	sumdir
+	df
+	df .
+	
+Otázka 90: Znovunačtení zónových (DNS) souborů zajistí
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	kill -HUP `cat named.pid`
+	rndc stop
+	rndc reload
+	reboot
+	
+Otázka 91: Označte všechny povely, které dokáží přidat uživatele do skupiny
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	ghostscript
+	gawk
+	groupmod
+	gpasswd
+	
+Otázka 93: Jak vyřešíte poškození super bloku bez ztráty dat
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	použítím fsck -b se záložním super blokem
+	nelze vůbec řešit, svazek je nenávratně ztracen
+	modlitbou
+	obnovou svazku ze záložního média
+	
+Otázka 94: Kolik inodů zabírá adresář
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	3
+	žadný, adresář nepotřebuje alokovat žádnou inodu
+	2
+	1
+	
+Otázka 95: Utilita mrtg
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	čte hodnoty průtoku z jednotlivých adaptérů a zapisuje je do MySQL databáze
+	čte hodnoty průtoku jak z adaptérů tak i skrze SNMP a zapisuje je v portabilním formátu do SQL báze pro pozdější využití
+	vytvaří statistiky přístupu k serveru, údaje čte z /var/log/wtmp
+	vytváří statistiky průtoku na adaptérech čtením vstupních hodnot přes SNMP
+	
+Otázka 96: Zpracování front postfixu vynutí příkaz
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	postconf
+	postqueue -p
+	postqueue -f
+	postmap
+	
+Otázka 98: Příkaz sloužící k inicializaci (formátování) filesystému je
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	mount
+	umount
+	mkfs
+	newfs
+	
+Otázka 99: Označte v praxi použitelná pokračování řádku "ifconfig pfsync0" při nastavování pfsync/OpenBSD
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	inet 10.0.0.1 netmask 255.255.255.0
+	syncdev lo syncpeer 127.0.0.1
+	
+Otázka 100: Záloha na úrovni N>0 bude obsahovat
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+	plnou zálohu
+	přírůstkovou zálohu od poslední zálohy na vyšší úrovni (s vyšším číslem)
+	přírůstkovou zálohu od poslední zálohy na nižší úrovni (s nižším číslem)
+	nic, protože záloha může být jen na úrovni 0
+	
+Otázka 2: Bázi poštovních aliasů přegeneruje příkaz
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	runq
+	mailq
+	newaliases
+	purgestat
+	
+Otázka 3: Seznam připojených NFS klientů, resp. seznam exportovaných mount-pointů, lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	showmount, spouštěného výhradně jen na NFS serveru
+	showmount, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	rpcinfo, spouštěného výhradně jen na NFS serveru
+	rpcinfo, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	
+Otázka 5: Jaké oblasti obsahuje cylinder group typického UFS
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	zavaděč (boot block)
+	oblast s datovými bloky
+	cylinder group map
+	informace o filesystému (super block)
+	oblast s inodami
+	
+Otázka 6: Program, který vypíše status otevřených souborů jednotlivých procesů se jmenuje
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	sysctl
+	netstat
+	vmstat
+	pstat
+	
+Otázka 7: Označte všechny pravdivé výroky o velkém diskovém bloku
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	oproti menšímu bloku vede k většímu plýtvání diskovou kapacitou
+	oproti menšímu bloku typicky zrychluje vstupně-výstupní operace
+	hodí se na svazky (ext2...) s obrovským počtem malých souborů
+	hodí se na svazky (ext2...) s malým počtem obrovských souborů
+
+Otázka 8: Označte všechny povely, které dokáží přidat uživatele do skupiny
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	gawk
+	ghostscript
+	groupadd
+	groupmod
+	
+Otázka 10: Inoda s číslem 1 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	zavaděč (boot loader)
+	kořen filesystému
+	taková inoda neexistuje
+	seznam vadných bloků
+	
+Otázka 11: K inicializaci master serveru YP domény slouží příkaz
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	ypserv
+	ypinit
+	rpc.yppasswdd
+	ypbind
+	
+Otázka 12: RDR pravidla se na OpenBSD aplikují
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	i během aplikace pravidel firewallu (obě skupiny se mohou vzájemně mísit)
+	po aplikaci pravidel firewallu
+	defaultně před pravidly firewallu, tj. filter uvidí transformovaný paket
+	
+Otázka 13: AH paket obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	o režimu AH, transport nebo tunel, nelze nic říci
+	jedná se výhradně o AH v režimu tunel
+	jedná se bezvýhradně o AH v režimu transport
+	něco takového se v případě AH vůbec nestane
+	
+Otázka 14: Počítač s hostname "cuni" v doméně "cz" bude mít FQDN
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	cuni.cuni.cz
+	cuni.cuni.cz.
+	mff.cuni.cz
+	
+Otázka 15: Označte v praxi použitelná pokračování řádku "ifconfig pfsync0" při nastavování pfsync/OpenBSD
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	syncdev lo syncpeer 127.0.0.1
+	inet 10.0.0.1 netmask 255.255.255.0
+	
+Otázka 16: Firewall na Linuxu (iptables) se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	pfctl
+	ipctl
+	iptables
+	iptablesctl
+	
+Otázka 18: Výpadek DNS serveru může nahradit seznam jmen a IP v souboru
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	/var/named/etc/named.conf
+	/etc/bind.allow
+	/etc/pf.conf
+	/root/.bash_history
+	
+Otázka 19: Chcete-li, aby se na terminál nepřihlásil uživatel root, musíte v OpenBSD
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	touch /etc/nologin
+	napsat jméno terminálu do /etc/nologin.txt
+	provést rm -rf /root
+	nastavit terminál jako "on secure" v /etc/ttys
+	
+Otázka 20: Příkaz sloužící k inicializaci (formátování) filesystému je
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	dump
+	restore
+	fsck
+	mount
+	
+Otázka 21: Kolik fází je prováděno v rámci IKE/ISAKMP
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě tři
+	nejméně šest
+	právě jedna
+	
+Otázka 22: S čím se shoduje v m4 sendmail konfiguraci výraz $* < $+ >
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	Josef Novak < jn@x.y >
+	Josef Novak
+	<>
+	< jn@x.y>
+	
+Otázka 23: Položky v zónovém souboru, které definují DNS servery dané zóny jsou typu
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	PTR
+	CNAME
+	MX
+	A
+	
+Otázka 24: Označte všechny distribuované (síťové) souborové systémy
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	raiserfs
+	ext3
+	spadfs
+	ntfs
+	
+Otázka 25: Co je uloženo v souboru ~/.ssh/known_hosts?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	zkratky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	autorizované veřejné klíče
+	
+Otázka 26: Sparse file je
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	soubor pana Sparse
+	řidký soubor s dírami vzniklými HW závadami diskových bloků
+	synonymum pro swap file
+	soubor s dírami vzniklými například instrukcí lseek
+	
+Otázka 27: Záloha na úrovni N>0 bude obsahovat
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	přírůstkovou zálohu od poslední zálohy na nižší úrovni (s nižším číslem)
+	nic, protože záloha může být jen na úrovni 0
+	přírůstkovou zálohu od poslední zálohy na vyšší úrovni (s vyšším číslem)
+	plnou zálohu
+	
+Otázka 28: O kolik zpráv je rychlejší aggressive mód než main mód ve fázi 1 IKE?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě o 6
+	právě o 2
+	právě o 3
+	právě o 1
+	
+Otázka 29: CARP byl nastaven s advbase=200. Kterým příkazem lze tuto hodnotu změnit?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	ifconfig
+	sysconfig
+	carp
+	pfctl
+	
+Otázka 31: Příkaz sloužící k opravě filesystému je
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	restore
+	mkfs
+	umount
+	fsck
+	
+Otázka 33: Seznam běžících RPC služeb lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	rpcinfo, spouštěný výhradně lokálně na konkrétním stroji
+	rpcstat, a to i vzdáleně (přes síť)
+	seznam je uveden v /etc/rpc
+	rpcinfo, a to i vzdáleně (přes síť)
+	
+Otázka 34: Kolik diskových datových bloků zabírá roura/socket
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě 3
+	podle velikosti roury/socketu
+	žadný, roura/socket nepotřebuje alokovat žádný datový blok
+	právě 1
+	
+Otázka 35: Inoda s číslem 2 obsahuje/odkazuje
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	seznam vadných bloků
+	zavaděč (boot loader)
+	undelete adresář
+	taková inoda neexistuje
+	
+Otázka 36: Firewall na OpenBSD se ovládá pomocí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	pfctl
+	iptables
+	ipsecctl
+	pfstat
+	
+Otázka 37: Kde najdete obnovené soubory po fsck
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	na své USB klíčence
+	v adresáři lost+found
+	v domácím adresáři uživatele root
+	v kořenovém adresáři
+	
+Otázka 38: Označte všechny povely, které zavedou nového uživatele
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	userdel
+	make user
+	useradd
+	usermod
+	
+Otázka 39: Na veřejné síti někdo odchytí náš ESP paket, o kterém víme že obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	pozorovatel ví, že se jedná o ESP v režimu transport
+	pozorovatel ví, že se jedná o ESP v režimu tunel
+	
+Otázka 40: Kolik diskových datových bloků zabírá soubor
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě 1
+	právě 2
+	podle velikosti souboru
+	žadný, soubor nepotřebuje alokovat žádný datový blok
+	
+Otázka 41: Glue záznam
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	udává doménové jméno primárního serveru nadřazené zóny
+	je každý NS záznam v zóně
+	je korektní umisťovat ke všem NS záznamům zóny
+	pomáhá kontaktovat DNS, na které se oddelegovává, a jehož doménové jméno je v oné oddelegovávané (pod)zóně
+	
+Otázka 42: Kolik inodů zabírá adresář
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	2
+	v průměru 1,5
+	žadný, adresář nepotřebuje alokovat žádnou inodu
+	1
+	
+Otázka 44: Označte příkaz, který může modifikovat obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	lpq
+	lprm
+	lpc
+	lpr
+	
+Otázka 45: Označte položky tvořící SA
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	identifikátor bezp. protokolu
+	cílová IP adresa
+	hashovací funkce (sha, md5)
+	SPI
+	
+Otázka 46: Označte všechny záznamy ekvivaletní s "mail.cuni.cz MX 10 relay.cuni.cz"
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	"mail MX 10 relay" při ORIGIN cuni.cz
+	"mail MX 10 relay.cuni.cz" při ORIGIN cuni.cz
+	"mail MX 10 relay." při ORIGIN cuni.cz
+	"mail. MX 10 relay" při ORIGIN cuni.cz
+	
+Otázka 47: Označte položky z AH hlavičky
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	číslo IP protokolu
+	SPI
+	next header
+	ICV
+	
+Otázka 48: Označte procesy, které musí být přítomné na YP klientovi
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	keyserv
+	ypserv
+	ypbind
+	ypupdated
+	
+Otázka 49: Inoda obsahuje
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	adresu ACPI tabulky v jádře
+	emailovou adresu autora VFS
+	úplnou cestu k souboru
+	kopii MBR
+	
+Otázka 50: Na OpenBSD obsahuje nainstalovaný soubor /var/named/etc/root.hint (ev. root.hint ve /var/named)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	seznam všech name serverů dosažitelných bez pomoci routeru
+	seznam kořenových DNS serverů
+	návody/hinty pro uživatele "root"
+	seznam všech name serverů druhé úrovně
+	
+Otázka 51: Sekundár bude kontaktovat příslušný DNS primár (označte všechny správné možnosti)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	pouze v nočních hodinách mezi půlnocí a 6AM
+	nikdy ho kontaktovat nebude, nemá k tomu nikdy vůbec žádný důvod
+	jakmile dostane NOTIFY zprávu od primáru
+	po uplynutí doby specifikované v "Refresh" hodnotě SOA atributu
+	
+Otázka 53: Obsah sendmail front vypíše příkaz
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	hoststat
+	runq
+	newaliases
+	mailq
+	
+Otázka 54: Označte odpovědi, které vymezují množiny zpráv zalogovaných Syslog-em na OpenBSD při selektoru auth.info
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	zprávy na méně důležitých úrovních jak auth v modulu info
+	zprávy na úrovni info z modulu auth
+	zprávy na úrovni auth v modulu info
+	zprávy na důležitějších úrovních jak info v modulu auth
+	
+Otázka 55: Příkaz sloužící k připojení filesystému je
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	dump
+	newfs
+	umount
+	fsck
+	
+Otázka 56: Exportované svazky jsou na NFS serveru uvedeny v
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	/etc/fstab
+	/etc/imports
+	/etc/passwd
+	/etc/rc
+	
+Otázka 57: Co způsobí v OpenBSD firewallu řádek "block in"
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	zablokuje odchod paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	zablokuje vstup paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	zablokuje vstup paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	
+Otázka 58: PPTP
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	umožňuje realizaci road warrior
+	je proprietárním protokolem, který tak není v prostředí OSS UNIXů implementován
+	je rovnocenný ekvivalent technologie IPsec
+	nahradilo méně bezpečné L2TP/IPsec
+	
+Otázka 59: Označte příkazy, které zastaví (se správnými parametry) běžící systém bez opětovného startu
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	halt
+	shutdown
+	poweroff
+	init
+	
+Otázka 60: Označte pravdivé tvrzení v kontextu DNS
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	počet delegování je v zóně omezen na 16, v doméně na 32
+	obsah zóny je částí příslušné domény
+	doména a zóna jsou synonyma pro tentýž objekt
+	obsah domény je částí příslušné zóny, nikdy nejsou shodné
+	
+Otázka 61: Jakou funkci plní amd program na OpenBSD
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	dynamicky připojuje svazky (výhradně síťové) podle své konfigurace
+	zkratka pro another-memory-dumper, jedná o dumper paměti
+	slouží jako koprocesor, pokud je hlavním CPU Intel i7
+	dynamicky připojuje svazky (lokální i síťové) podle své konfigurace
+	
+Otázka 62: Označte pravdivé výroky o snapshotu filesystému
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	lze ho implementovat pomocí sparse file
+	lze ho připojovat a dodatečně zálohovat
+	nikdy ho nelze připojit v režimu read-write
+	nikdy ho nelze připojit v režimu read-only
+	
+Otázka 63: Soubor /etc/nologin na OpenBSD způsobí, že se
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	zobrazí obsah tohoto souboru, uživatel se přihlásí a může pracovat nejvýše 5 minut
+	žádný uživatel k systému nepřihlásí, typicky s výjimkou skupiny staff
+	zobrazí obsah tohoto souboru po ověření přihlašovacích údajů
+	po restartu stroj automaticky převede na běhovou úroveň 9
+	
+Otázka 64: Backscatter
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	je technika, která umožňuje testování a ladění výkonu SMTP serverů
+	je jiné označení pro ICMP
+	je side-efekt činnosti, která vede k zasílání e-mailových nedoručenek nevinné oběti
+	je běžná e-mailová korespondence, kterou chce správce doručovat s maximální prioritou
+	
+Otázka 65: Označte příkaz, který zobrazí obsah fronty (tiskárny)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	lpq
+	lpd
+	lpr
+	lprm
+	
+Otázka 66: Specifikace "masters" v zone bloku ve /var/named/etc/named.conf je smysluplná pro
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	zone blok typu master
+	zone blok typu chaos
+	zone blok typu hint
+	
+Otázka 67: Pokud je mezi YP klientem a serverem router, pak
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	taková konfigurace nemůže nikdy fungovat
+	není zapotřebí nic dělat, klient vždy objeví server broadcastem
+	je nutné uvést seznam YP serverů (alespoň jednoho) v /etc/yp/název_domény
+	je nevyhnutelné dovolit šíření broadcastu skrze router
+	
+Otázka 68: Kolik musí existovat autoritativních DNS serverů k dané zóně?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě dva a více
+	právě jeden
+	právě dva
+	žádný není potřeba
+	
+Otázka 69: Co bude zapsáno při last-close sémantice, po instrukcích oOwWWwcC (open/writeblock/close dvou procesů nad týmž souborem, rozlišeno kapitálkami)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	první w, druhé w
+	první w, druhé W
+	první W, druhé w
+	
+Otázka 70: Kolik inodů zabírá (pojmenovaná) roura/socket
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	2
+	žadný, roura ani socket nepotřebuje alokovat žádnou inodu
+	v průměru 1,5
+	3
+	
+Otázka 71: Co způsobí na OpenBSD řádek +:*:::::/sbin/nologin v passwd?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	všichni lokálně definovaní uživatelé se již ke stroji nebudou moci připojit
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, pokud mají poslední položku /sbin/nologin
+	tento řádek je nekorektní, nebude nijak interpretován
+	
+Otázka 72: Kolik datových bloků zabírá adresář
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě 1
+	právě 2
+	právě 3
+	žadný, adresář nepotřebuje alokovat žádný datový blok
+	
+Otázka 73: Pfsync na OpenBSD
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	synchronizuje soubory /etc/pf.conf
+	synchronizuje tabulku stavů
+	synchronizuje pravidla firewallu, vcetne pravidel NAT/RDR
+	synchronizuje pravidla firewallu, bez pravidel NAT/RDR
+	
+Otázka 74: Na OpenBSD se o příjem logovacích zpráv standardně stará démon
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	logrotate
+	loggerd
+	kernellogd
+	newsyslog
+	
+Otázka 75: Pro povel "dig @nejaky.server.cz zone axfr" platí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	za všech okolností skončí s chybou, protože AXFR nelze iniciovat z konzole
+	vždy vypíše kompletní obsah dané zóny a daný server to nemůže omezit
+	vždy vypíše A i MX-záznamy serveru, pokud se nachází v dané zóně
+	
+Otázka 76: Příkaz používaný pro zazálohování filesystému je
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	dump
+	tune2fs
+	mount
+	restore
+	
+Otázka 77: Detekci špatně nastavené směrovací tabulky do nějaké konkrétní sítě provedete příkazem
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	nettop
+	ping
+	mc
+	top
+	
+Otázka 78: Pokud na běžícím OpenBSD serveru smažeme obsah adresáře /etc/ssh vyjma souborů *_config, pak po restartu
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	se žádný ssh klient již nepřipojí
+	ssh server už nikdy nenaběhne
+	se vůbec nic nestane, ssh klienti nebudou nijak varováni
+	budou ssh klienti varování, že se změnily klíče serveru
+	
+Otázka 79: Znovunačtení zónových (DNS) souborů zajistí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	rndc stop
+	tanec kolem ohně
+	provede se automaticky bez zásahu administrátora
+	
+Otázka 81: Parametry kernelu změníte na BSD/Linuxu příkazem
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	konfig
+	setparams
+	setkernel
+	configure
+	
+Otázka 82: Mezi selekcí a akcí musí být v /etc/syslog.conf (např. na OpenBSD)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	jeden nebo více tabulátorů
+	libovolný počet výplňových znaků (mezera, tabulátor, odřádkovač)
+	právě jeden tabulátor
+	libovolný počet mezer
+	
+Otázka 83: Seznam všech super bloků na ext2 filesystému lze získat pomocí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	mke2fs (mkfs)
+	badblock
+	fsck
+	du
+	
+Otázka 84: Utilita mrtg
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	vytváří statistiky průtoku na adaptérech čtením vstupních hodnot přes SNMP
+	čte hodnoty průtoku z jednotlivých adaptérů a zapisuje je do MySQL databáze
+	čte hodnoty průtoku jak z adaptérů tak i skrze SNMP a zapisuje je v portabilním formátu do SQL báze pro pozdější využití
+	vytvaří statistiky přístupu k serveru, údaje čte z /var/log/wtmp
+	
+Otázka 85: K inicializaci záložního (slave) serveru YP domény slouží příkaz
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	ypbind
+	ypserv
+	rpc.yppasswdd
+	ypinit
+	
+Otázka 87: Označte všechny pravdivé výroky o maildir
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	vyžaduje funkční operaci zamykání souborů v cílovém adresáři
+	umožňuje uživateli rychlé vyhodnocování regulárních výrazů nad došlou poštou
+	nové e-maily se připisují na konec souboru schránky uživatele
+	
+Otázka 88: NFS svazek se na klientovi připojí pomocí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	nfsstat
+	rpcinfo
+	showmount
+	mount, resp. mount.nfs či mount_nfs
+	
+Otázka 89: Veřejný i privátní klíč k SSH lze vytvořit pomocí příkazu
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	ssh-client
+	ssh-agent
+	ssh-keys
+	
+Otázka 90: Tabulku (jako celek, nikoliv její obsah) nelze v pf na OpenBSD zrušit, pokud
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	je zmíněna v /etc/pf.conf
+	je označena jako const
+	je označena jako volatile
+	
+Otázka 91: Jaké adresáře využívá maildir formát pro svoji činnost
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	pouze cur
+	pouze cur a new
+	cur, new a tmp
+	žádné adresáře nepoužívá, e-maily připisuje do jediného souboru
+	
+Otázka 92: Označte všechny pravdivé výroky o mbox
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	podporuje složky v rámci schránky
+	podporuje sdílení složek mezi více uživateli
+	nové e-maily alokují vždy nový soubor ve schránce uživatele
+	
+Otázka 93: Označte ty parametry postfixu, které umožňují relay pošty jen z vymezené části šítě
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	mynetworks
+	myorigin
+	mydestination
+	relayhost
+	
+Otázka 94: Označte procesy nutné pro provoz NFS serveru
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	ypbind
+	ypupdated
+	amd
+	keyserv
+	
+Otázka 95: Při zjišťování doménového jména k IP A.B.C.D se hledá
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	PTR pro A.B.C.D
+	PTR pro A.B.C.D.in-addr.arpa
+	PTR pro D.C.B.A.in-addr.arpa
+	PTR pro D.C.B.A.in-addr.
+	
+Otázka 96: Statistiku přenosů (per mailer) sendmailu zobrazí příkaz
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	mailq
+	hoststat
+	purgestat
+	mailstats
+	
+Otázka 97: Kolik zpráv se používá ve fázi 2 IKE?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	právě 2
+	právě 6
+	právě 1
+	
+Otázka 98: Seznam běžících procesů vypisuje program
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	ps
+	netstat
+	vmstat
+	pstat
+	
+Otázka 99: Jaký je rozdíl mezi primárním a sekundárním DNS serverem?
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	primár obsahuje důležitější záznamy jak sekundár
+	primár čte data ze souboru, sekundár z primáru (ev. pomocného souboru)
+	žádný, mají identickou konfiguraci
+	žádný, sekundár ale může podporovat rekursivní DNS dotazy
+	
+Otázka 100: Záloha na úrovni 0 značí
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+	poslední (aktuální) zálohu
+	nedefinovanou zálohu
+	plnou zálohu
+	prázdnou zálohu
+	
+Otázka 1: Kolik inodů zabírá adresář
+
+Možnosti	Odpověď
+	3
+	2
+	1
+	žadný, adresář nepotřebuje alokovat žádnou inodu
+	
+Otázka 2: NFS svazek se na klientovi připojí pomocí
+
+Možnosti	Odpověď
+	nfsstat
+	mount, resp. mount.nfs či mount_nfs
+	showmount
+	rpcinfo
+	
+Otázka 3: Jak musí být nastavena stanice s CARP, aby každou sekundu informovala o své přítomnosti?
+
+Možnosti	Odpověď
+	stanice s CARP o své přítomnosti vůbec neinformuje
+	advskew=1, advbase=0
+	takové nastavení nelze dosáhnout
+	
+Otázka 4: Kolik SA existuje po navázání IPsec tunelu mezi dvěma směrovači (nejsou-li mezitím žádné rušeny)?
+
+Možnosti	Odpověď
+	právě 3
+	právě 2
+	právě 1
+	právě 4
+	
+Otázka 5: Tabulku (jako celek, nikoliv její obsah) nelze v pf na OpenBSD zrušit, pokud
+
+Možnosti	Odpověď
+	je označena jako persist
+	je označena jako const
+	je označena jako volatile
+	je zmíněna v /etc/pf.conf
+	
+Otázka 6: Bázi poštovních aliasů přegeneruje příkaz
+
+Možnosti	Odpověď
+	purgestat
+	mailq
+	runq
+	newaliases
+	
+Otázka 8: Příkaz používaný pro zazálohování filesystému je
+
+Možnosti	Odpověď
+	tune2fs
+	mount
+	newfs
+	mkfs
+	
+Otázka 10: Znovunačtení zónových (DNS) souborů zajistí
+
+Možnosti	Odpověď
+	reboot
+	rndc reload
+	rndc stop
+	kill -HUP `cat named.pid`
+	
+Otázka 11: Výpadek DNS serveru může nahradit seznam jmen a IP v souboru
+
+Možnosti	Odpověď
+	/root/.bash_history
+	/etc/bind.allow
+	/etc/hosts
+	/etc/pf.conf
+	
+Otázka 12: Označte procesy nutné pro provoz NFS serveru
+
+Možnosti	Odpověď
+	ypbind
+	portmap
+	nfs/nfsd
+	mountd
+	
+Otázka 13: Seznam všech super bloků na ext2 filesystému lze získat pomocí
+
+Možnosti	Odpověď
+	badblock
+	df
+	fsck
+	du
+	
+Otázka 14: Co se stane, pokud je restarován NFSv3 server
+
+Možnosti	Odpověď
+	klient musí přemountovat daný NFS svazek, neboť NFSv3 je stavový protokol
+	klient vždy zatuhne, a jádro jeho O/S zůstane neodvolatelně viset na interním dead-locku
+	klient vždy okamžitě spadne a je nutné ho restartovat
+	
+Otázka 15: Označte pravdivé výroky o snapshotu filesystému
+
+Možnosti	Odpověď
+	nikdy ho nelze připojit v režimu read-write
+	zatím nebyl implementován, existuje jen v teoretických úvahách
+	nikdy ho nelze připojit v režimu read-only
+	
+Otázka 16: Kolik datových bloků zabírá adresář
+
+Možnosti	Odpověď
+	žadný, adresář nepotřebuje alokovat žádný datový blok
+	právě 1
+	právě 2
+	právě 3
+	
+Otázka 17: Označte položky tvořící SA
+
+Možnosti	Odpověď
+	identifikátor bezp. protokolu
+	SPI
+	hashovací funkce (sha, md5)
+	cílová IP adresa
+	
+Otázka 18: Firewall OpenBSD (pf), Linuxu (iptables), ad. jsou vesměs firewally
+
+Možnosti	Odpověď
+	osobní
+	aplikační
+	bezestavové
+	
+Otázka 19: Kolik musí existovat autoritativních DNS serverů k dané zóně?
+
+Možnosti	Odpověď
+	alespoň jeden
+	právě dva a více
+	právě dva
+	žádný není potřeba
+	
+Otázka 20: Pokud na běžícím OpenBSD serveru smažeme obsah adresáře /etc/ssh vyjma souborů *_config, pak po restartu
+
+Možnosti	Odpověď
+	se žádný ssh klient již nepřipojí
+	budou ssh klienti varování, že se změnily klíče serveru
+	ssh server už nikdy nenaběhne
+	se vůbec nic nestane, ssh klienti nebudou nijak varováni
+	
+Otázka 21: Inoda s číslem 1 obsahuje/odkazuje
+
+Možnosti	Odpověď
+	undelete adresář
+	seznam vadných bloků
+	zavaděč (boot loader)
+	taková inoda neexistuje
+	
+Otázka 22: Kolik datových bloků může alokovat jeden symbolický link
+
+Možnosti	Odpověď
+	2
+	podle velikosti cílového souboru
+	3
+	
+Otázka 23: Glue záznam
+
+Možnosti	Odpověď
+	je každý NS záznam v zóně
+	je korektní umisťovat ke všem NS záznamům zóny
+	udává doménové jméno primárního serveru nadřazené zóny
+	
+Otázka 24: Omezení IP adres, které mohou na primárním DNS provést AXFR zajistí parametr
+
+Možnosti	Odpověď
+	file
+	allow-update
+	masters
+	listen-on
+	
+Otázka 25: Seznam TCP socketů v režimu LISTEN získáte povelem (vč. parametrů)
+
+Možnosti	Odpověď
+	netstat -n
+	ifconfig -a
+	route -n
+	
+Otázka 26: S čím se shoduje v m4 sendmail konfiguraci výraz $* < $+ >
+
+Možnosti	Odpověď
+	Josef Novak
+	<>
+	Josek Novak <>
+	
+Otázka 27: Jaké adresáře využívá maildir formát pro svoji činnost
+
+Možnosti	Odpověď
+	pouze cur
+	pouze cur a new
+	žádné adresáře nepoužívá, e-maily připisuje do jediného souboru
+	
+Otázka 28: Označte odpovědi, které vymezují množiny zpráv zalogovaných Syslog-em na OpenBSD při selektoru auth.info
+
+Možnosti	Odpověď
+	zprávy na úrovni auth v modulu info
+	zprávy na méně důležitých úrovních jak auth v modulu info
+	zprávy na důležitějších úrovních jak info v modulu auth
+	zprávy na úrovni info z modulu auth
+	
+Otázka 29: Seznam běžících RPC služeb lze získat pomocí
+
+Možnosti	Odpověď
+	rpcstat, a to i vzdáleně (přes síť)
+	rpcinfo, a to i vzdáleně (přes síť)
+	seznam je uveden v /etc/rpc
+	rpcinfo, spouštěný výhradně lokálně na konkrétním stroji
+	
+Otázka 30: Seznam připojených NFS klientů, resp. seznam exportovaných mount-pointů, lze získat pomocí
+
+Možnosti	Odpověď
+	showmount, spouštěného výhradně jen na NFS serveru
+	showmount, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	rpcinfo, z libovolného uzlu, který se může připojit pomocí RPC na NFS server
+	rpcinfo, spouštěného výhradně jen na NFS serveru
+	
+Otázka 31: Na žurnálovém souborovém filesystému jsou atomické operace typicky
+
+Možnosti	Odpověď
+	cp -r
+	
+Otázka 32: Program, který vypíše status otevřených souborů jednotlivých procesů se jmenuje
+
+Možnosti	Odpověď
+	pstat
+	sysctl
+	netstat
+	fstat
+	
+Otázka 33: K čemu se využívá adresář /var/empty (např. na OpenBSD)
+
+Možnosti	Odpověď
+	slouží pro named jako adresář jeho chroot volání
+	slouží pro interní potřeby všech chroot volání
+	slouží pro prvního otroka při přihlašování skrze ssh
+	nemá žádné využití, může se smazat, vznikl omylem a je udržován z historických důvodů
+	
+Otázka 34: Firewall na Linuxu (iptables) se ovládá pomocí
+
+Možnosti	Odpověď
+	pfctl
+	iptablesctl
+	ipctl
+	
+Otázka 35: Označte ty parametry postfixu, které umožňují relay pošty jen z vymezené části šítě
+
+Možnosti	Odpověď
+	myorigin
+	relayhost
+	mydestination
+	
+Otázka 36: Na OpenBSD se o příjem logovacích zpráv standardně stará démon
+
+Možnosti	Odpověď
+	syslog/syslogd
+	logrotate
+	loggerd
+	newsyslog
+	
+Otázka 37: Označte pravdivá tvrzení v kontextu LVM
+
+Možnosti	Odpověď
+	brání nahrazování (vadných) disků v rámci volume group
+	může obsahovat interní podporu pro některé typy RAID
+	logical volume se alokuje z volume group
+	fyzické disky mohou být sloučeny do volume group
+	
+Otázka 39: Sparse file je
+
+Možnosti	Odpověď
+	řidký soubor s dírami vzniklými HW závadami diskových bloků
+	soubor pana Sparse
+	synonymum pro swap file
+	soubor s dírami vzniklými například instrukcí lseek
+	
+Otázka 40: Co je uloženo v souboru ~/.ssh/known_hosts?
+
+Možnosti	Odpověď
+	autorizované veřejné klíče
+	zkratky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	identifikace známých serverů (jejich otisky)
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	
+Otázka 41: Seznam běžících procesů vypisuje program
+
+Možnosti	Odpověď
+	vmstat
+	netstat
+	pstat
+	sysctl
+	
+Otázka 42: Označte všechny záznamy ekvivaletní s "mail.cuni.cz MX 10 relay.cuni.cz"
+
+Možnosti	Odpověď
+	"mail MX 10 relay." při ORIGIN cuni.cz
+	"mail MX 10 relay" při ORIGIN cuni.cz
+	"mail MX 10 relay.cuni.cz" při ORIGIN cuni.cz
+	"mail. MX 10 relay" při ORIGIN cuni.cz
+	
+Otázka 43: Označte jen ty parametry, které vyžaduje postfix, aby přijímal poštu pro lokální uživatele
+
+Možnosti	Odpověď
+	relay_domains
+	myorigin
+	mydestination
+	masquerade_domains
+	
+Otázka 45: Označte v praxi použitelná pokračování řádku "ifconfig pfsync0" při nastavování pfsync/OpenBSD
+
+Možnosti	Odpověď
+	syncdev msk0 syncpeer 10.0.0.1
+	syncdev lo syncpeer 127.0.0.1
+	syncdev msk0
+	inet 10.0.0.1 netmask 255.255.255.0
+	
+Otázka 46: Jakou funkci plní amd program na OpenBSD
+
+Možnosti	Odpověď
+	zkratka pro another-memory-dumper, jedná o dumper paměti
+	slouží jako koprocesor, pokud je hlavním CPU Intel i7
+	dynamicky připojuje svazky (lokální i síťové) podle své konfigurace
+	amd je ekvivalent programu mount
+	
+Otázka 47: Chcete-li, aby se na terminál nepřihlásil uživatel root, musíte v OpenBSD
+
+Možnosti	Odpověď
+	provést rm -rf /root
+	touch /etc/nologin
+	nastavit terminál jako "on secure" v /etc/ttys
+	napsat jméno terminálu do /etc/nologin.txt
+	
+Otázka 48: Položky v zónovém souboru, které definují DNS servery dané zóny jsou typu
+
+Možnosti	Odpověď
+	A
+	NS
+	CNAME
+	MX
+	
+Otázka 50: Při zjišťování doménového jména k IP A.B.C.D se hledá
+
+Možnosti	Odpověď
+	PTR pro A.B.C.D.in-addr.arpa
+	PTR pro A.B.C.D
+	PTR pro D.C.B.A.in-addr.
+	
+Otázka 51: Příkaz sloužící k opravě filesystému je
+
+Možnosti	Odpověď
+	mkfs
+	fsck
+	restore
+	tune2fs
+	
+Otázka 52: Označte procesy, které musí být přítomné na YP klientovi
+
+Možnosti	Odpověď
+	ypserv
+	ypupdated
+	ypbind
+	amd
+	
+Otázka 53: Inoda s číslem 0 obsahuje/odkazuje
+
+Možnosti	Odpověď
+	seznam vadných bloků
+	kořen filesystému
+	undelete adresář
+	zavaděč (boot loader)
+	
+Otázka 54: Jaký je rozdíl mezi primárním a sekundárním DNS serverem?
+
+Možnosti	Odpověď
+	primár čte data ze souboru, sekundár z primáru (ev. pomocného souboru)
+	žádný, sekundár ale může podporovat rekursivní DNS dotazy
+	primár obsahuje důležitější záznamy jak sekundár
+	žádný, mají identickou konfiguraci
+	
+Otázka 55: Jak vyřešíte poškození super bloku bez ztráty dat
+
+Možnosti	Odpověď
+	použítím fsck -b se záložním super blokem
+	obnovou svazku ze záložního média
+	zpěvy a tanci
+	modlitbou
+	
+Otázka 56: Kdy se automaticky spouští fsck
+
+Možnosti	Odpověď
+	nikdy se nespouští automaticky
+	může se spouštět před každým N-tým připojením svazku
+	může se spouštět každý N-tý den, typicky těsně před připojením svazku
+	po nekorektním odpojení svazku a následném startu systému
+	
+Otázka 57: Označte pravdivé tvrzení v kontextu DNS
+
+Možnosti	Odpověď
+	obsah zóny je částí příslušné domény
+	obsah domény je částí příslušné zóny, nikdy nejsou shodné
+	počet delegování je v zóně omezen na 16, v doméně na 32
+	doména a zóna jsou synonyma pro tentýž objekt
+	
+Otázka 58: Pfsync na OpenBSD
+
+Možnosti	Odpověď
+	synchronizuje soubory /etc/pf.conf
+	synchronizuje pravidla firewallu, vcetne pravidel NAT/RDR
+	synchronizuje pravidla firewallu, bez pravidel NAT/RDR
+	
+Otázka 59: Zpracování front postfixu vynutí příkaz
+
+Možnosti	Odpověď
+	postmap
+	postqueue -p
+	postalias
+	postconf
+	
+Otázka 60: Označte všechny povely, které dokáží přidat uživatele do skupiny
+
+Možnosti	Odpověď
+	gawk
+	groupadd
+	groupmod
+	ghostscript
+	
+Otázka 61: Mezi selekcí a akcí musí být v /etc/syslog.conf (např. na OpenBSD)
+
+Možnosti	Odpověď
+	jeden nebo více tabulátorů
+	libovolný počet výplňových znaků (mezera, tabulátor, odřádkovač)
+	právě jeden tabulátor
+	libovolný počet mezer
+	
+Otázka 62: Označte příkaz, který může modifikovat obsah fronty (tiskárny)
+
+Možnosti	Odpověď
+	lpr
+	lpd
+	lpq
+	
+Otázka 63: Inoda obsahuje
+
+Možnosti	Odpověď
+	odkazy na datové bloky
+	velikost souboru
+	uid vlastníka souboru
+	gid vlastníka souboru
+	
+Otázka 64: Firewall na OpenBSD se ovládá pomocí
+
+Možnosti	Odpověď
+	ipsecctl
+	pfctl
+	iptables
+	pfstat
+	
+Otázka 65: Parametry kernelu změníte na BSD/Linuxu příkazem
+
+Možnosti	Odpověď
+	konfig
+	setkernel
+	configure
+	setparams
+	
+Otázka 66: K inicializaci master serveru YP domény slouží příkaz
+
+Možnosti	Odpověď
+	ypinit
+	ypbind
+	rpc.yppasswdd
+	ypserv
+	
+Otázka 67: Kolik fází je prováděno v rámci IKE/ISAKMP
+
+Možnosti	Odpověď
+	právě tři
+	nejméně šest
+	právě jedna
+
+Otázka 68: Detekci špatně nastavené směrovací tabulky do nějaké konkrétní sítě provedete příkazem
+
+Možnosti	Odpověď
+	nettop
+	mc
+	top
+	ifconfig
+	
+Otázka 69: Kolik inodů zabírá (pojmenovaná) roura/socket
+
+Možnosti	Odpověď
+	1
+	v průměru 1,5
+	2
+	3
+	
+Otázka 70: Označte všechny povely, které zavedou nového uživatele
+
+Možnosti	Odpověď
+	userdel
+	useradd
+	configure
+	make user
+	
+Otázka 71: Označte všechny pravdivé výroky o velkém diskovém bloku
+
+Možnosti	Odpověď
+	oproti menšímu bloku vede k většímu plýtvání diskovou kapacitou
+	hodí se na svazky (ext2...) s malým počtem obrovských souborů
+	oproti menšímu bloku typicky zrychluje vstupně-výstupní operace
+	hodí se na svazky (ext2...) s obrovským počtem malých souborů
+	
+Otázka 72: Příkaz sloužící k inicializaci (formátování) filesystému je
+
+Možnosti	Odpověď
+	umount
+	mkfs
+	newfs
+	tune2fs
+	
+Otázka 73: Co způsobí na OpenBSD řádek +:*:::::/sbin/nologin v passwd?
+
+Možnosti	Odpověď
+	tento řádek je nekorektní, nebude nijak interpretován
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, ale poslední položka je v nich změněna na /sbin/nologin
+	z YP passwd mapy jsou de-facto připojeny všechny záznamy, pokud mají poslední položku /sbin/nologin
+	všichni lokálně definovaní uživatelé se již ke stroji nebudou moci připojit
+	
+Otázka 74: Záloha na úrovni 0 značí
+
+Možnosti	Odpověď
+	poslední (aktuální) zálohu
+	nedefinovanou zálohu
+	plnou zálohu
+	prázdnou zálohu
+	
+Otázka 75: AH paket obsahuje v položce next header hodnotu 6 (tcp). Označte všechny pravdivé výroky.
+
+Možnosti	Odpověď
+	něco takového se v případě AH vůbec nestane
+	o režimu AH, transport nebo tunel, nelze nic říci
+	jedná se výhradně o AH v režimu tunel
+	
+Otázka 76: Pokud je mezi YP klientem a serverem router, pak
+
+Možnosti	Odpověď
+	taková konfigurace nemůže nikdy fungovat
+	není zapotřebí nic dělat, klient vždy objeví server broadcastem
+	je nevyhnutelné dovolit šíření broadcastu skrze router
+	
+Otázka 77: IKE/ISAKMPD provádí
+
+Možnosti	Odpověď
+	volbu IPsec tunelů, kterými pak směruje definované toky
+	funguje jako směrovač v IPsec vrstvě
+	kompletní šifrování všech paketů zpracovávaných v IPsec
+	autentizaci uzlů
+	
+Otázka 78: Příkaz sloužící k připojení filesystému je
+
+Možnosti	Odpověď
+	mount
+	newfs
+	umount
+	fsck
+	
+Otázka 79: Seznam všech nainstalovaných balíčků na OpenBSD získáte jako výstup z
+
+Možnosti	Odpověď
+	pkg_delete
+	pkg_registry
+	pkg_add
+	pkg_list
+	
+Otázka 80: RDR pravidla se na OpenBSD aplikují
+
+Možnosti	Odpověď
+	po aplikaci pravidel firewallu
+	i během aplikace pravidel firewallu (obě skupiny se mohou vzájemně mísit)
+	
+Otázka 81: Označte všechny distribuované (síťové) souborové systémy
+
+Možnosti	Odpověď
+	Lustre
+	ext2
+	spadfs
+	ext3
+	
+Otázka 83: Statistiku přenosů (per mailer) sendmailu zobrazí příkaz
+
+Možnosti	Odpověď
+	purgestat
+	mailq
+	mailstats
+	newaliases
+	
+Otázka 84: Pro povel "dig @nejaky.server.cz zone axfr" platí
+
+Možnosti	Odpověď
+	vždy vypíše A i MX-záznamy serveru, pokud se nachází v dané zóně
+	za všech okolností skončí s chybou, protože AXFR nelze iniciovat z konzole
+	může vypsat kompletní obsah dané zóny
+	vždy vypíše kompletní obsah dané zóny a daný server to nemůže omezit
+	
+Otázka 85: Backscatter
+
+Možnosti	Odpověď
+	je standardně postfixem i dalšími SMTP servery odmítán
+	je plně eliminován pomocí blacklistů
+	nelze nikdy a za žádných podmínek eliminovat či omezit
+	
+Otázka 86: Označte položky z AH hlavičky
+
+Možnosti	Odpověď
+	SPI
+	ICV
+	next header
+	TTL
+	
+Otázka 87: Co způsobí v OpenBSD firewallu řádek "block in"
+
+Možnosti	Odpověď
+	zablokuje vstup paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	zablokuje odchod paketů na všech adaptérech, ale vyhodnocování pravidel pokračuje dál
+	zablokuje odchod paketů na všech adaptérech, a vyhodnocování pravidel okamžitě skončí
+	
+Otázka 88: Co je uloženo v souboru ~/.ssh/authorized_keys?
+
+Možnosti	Odpověď
+	seznam uživatelů, kterým je povolen přístup na daný účet
+	autorizované veřejné klíče
+	identifikace známých serverů (jejich otisky)
+	zkrátky/aliasy, které lze pak používat místo dlouhých DNS názvů
+	
+Otázka 89: Počítač s hostname "cuni" v doméně "cz" bude mít FQDN
+
+Možnosti	Odpověď
+	cuni.cuni.cz
+	cuni.cuni.cz.
+	mff.cuni.cz
+	
+Otázka 90: Směrovací tabulku můžete, např. na Linuxu, získat pomocí
+
+Možnosti	Odpověď
+	ifconfig -an
+	route -n
+	netstat -rn
+	routed
+	
+Otázka 91: Zobrazení systémových položek (datových struktur) získáte na BSD příkazem
+
+Možnosti	Odpověď
+	netstat
+	ifconfig
+	pstat
+	openconfig
+	
+Otázka 93: Záloha na úrovni N>0 bude obsahovat
+
+Možnosti	Odpověď
+	plnou zálohu
+	nic, protože záloha může být jen na úrovni 0
+	přírůstkovou zálohu od poslední zálohy na nižší úrovni (s nižším číslem)
+	přírůstkovou zálohu od poslední zálohy na vyšší úrovni (s vyšším číslem)
+	
+Otázka 95: Zpracování front sendmailu spustí příkaz
+
+Možnosti	Odpověď
+	mailstats
+	runq
+	hoststat
+	purgestat
+	
+Otázka 96: Kolik zpráv se používá ve fázi 2 IKE?
+
+Možnosti	Odpověď
+	právě 6
+	právě 1
+	právě 2
+	
+Otázka 97: Exportované svazky jsou na NFS serveru uvedeny v
+
+Možnosti	Odpověď
+	/etc/passwd
+	/etc/imports
+	/etc/fstab
+	/etc/rc
+	
+Otázka 98: Kde najdete obnovené soubory po fsck
+
+Možnosti	Odpověď
+	v kořenovém adresáři
+	v adresáři tmp
+	na své USB klíčence
+	v domácím adresáři uživatele root
+	
+Otázka 99: Označte příkaz, který zobrazí obsah fronty (tiskárny)
+
+Možnosti	Odpověď
+	lprm
+	lpd
+	lpr
+	lpq
+	
+Otázka 100: Sekundár bude kontaktovat příslušný DNS primár (označte všechny správné možnosti)
+
+Možnosti	Odpověď
+	po uplynutí doby specifikované v "Refresh" hodnotě SOA atributu
+	jen po uplynutí doby specifikované v "Expire" hodnotě SOA atributu
+	nikdy ho kontaktovat nebude, nemá k tomu nikdy vůbec žádný důvod
+	jakmile dostane NOTIFY zprávu od primáru
+	

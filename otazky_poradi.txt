@@ -1,0 +1,786 @@
+Otázka 32: Určete správné pořadí následujících kroků
+
+Možnosti	Odpověď
+1	2	3	4	5
+načtení /etc/inittab
+1	2	3	4	5
+provedení /etc/rcN.d/K* (N je spouštěná běhová úroveň)
+1	2	3	4	5
+start kernelu
+1	2	3	4	5
+start procesu init
+1	2	3	4	5
+provedení /etc/rcN.d/S* (N je spouštěná běhová úroveň)
+
+Otázka 47: Označte pořadí provedení vybraných make cílů při stavbě balíčku skrze OpenBSD ports
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6	 7
+install
+ 1	 2	 3	 4	 5	 6	 7
+configure
+ 1	 2	 3	 4	 5	 6	 7
+fetch
+ 1	 2	 3	 4	 5	 6	 7
+patch
+ 1	 2	 3	 4	 5	 6	 7
+extract
+ 1	 2	 3	 4	 5	 6	 7
+build
+ 1	 2	 3	 4	 5	 6	 7
+package
+
+Otázka 48: Označte pořadí průchodu systémového FS/IO volání od uživatelské aplikace na Linuxu
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+ovladač diskového zařízení
+ 1	 2	 3	 4	 5
+buffer keš
+ 1	 2	 3	 4	 5
+implementace FS
+ 1	 2	 3	 4	 5
+rozhraní systémových volání
+ 1	 2	 3	 4	 5
+VFS
+
+Otázka 49: Určete správné pořadí následujících kroků (očíslujte je) v OpenBSD
+
+Možnosti	Odpověď
+1	2	3	4	5	6	7	8
+start /etc/rc
+1	2	3	4	5	6	7	8
+start kernelu
+1	2	3	4	5	6	7	8
+start standardních démonů (sshd, named, httpd, atp.)
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf.local
+1	2	3	4	5	6	7	8
+start /etc/rc.local
+1	2	3	4	5	6	7	8
+promazání /tmp
+1	2	3	4	5	6	7	8
+mount filesystémů (mount -a)
+
+Otázka 55: Určete pořadí (nejdůležitejší=1) následujících vybraných úrovní syslog zpráv
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6
+crit
+ 1	 2	 3	 4	 5	 6
+info
+ 1	 2	 3	 4	 5	 6
+debug
+ 1	 2	 3	 4	 5	 6
+emerg
+ 1	 2	 3	 4	 5	 6
+warning
+ 1	 2	 3	 4	 5	 6
+err
+
+Otázka 67: Označte číslem pořadí v jakém pracuje fsck
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+kontrola cylinder groups
+ 1	 2	 3	 4	 5
+kontrola počtu odkazů a vazeb
+ 1	 2	 3	 4	 5
+kontrola bloků a velikostí
+ 1	 2	 3	 4	 5
+kontrola adresářů
+ 1	 2	 3	 4	 5
+kontrola dosažitelnosti adresářů
+
+Otázka 87: Označte pořadí kroků při přechodu z běhové úrovně 3 na 1 (0=neproběhne)
+
+Možnosti	Odpověď
+ 0	 1	 2
+skripty /etc/rc1.d/K*
+ 0	 1	 2
+skripty /etc/rc3.d/S*
+ 0	 1	 2
+skripty /etc/rc3.d/K*
+ 0	 1	 2
+skripty /etc/rc1.d/S*
+
+Otázka 98: Očíslujte pořadí následujících operací při startu systému
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+spuštění služeb systému
+ 1	 2	 3	 4	 5
+start zavaděčů
+ 1	 2	 3	 4	 5
+spuštění procesu init
+ 1	 2	 3	 4	 5
+detekce HW kernelem
+ 1	 2	 3	 4	 5
+nahrání kernelu
+
+Otázka 22: Očíslujte pořadí následujících operací při startu systému
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+spuštění procesu init
+ 1	 2	 3	 4	 5
+start zavaděčů
+ 1	 2	 3	 4	 5
+detekce HW kernelem
+ 1	 2	 3	 4	 5
+nahrání kernelu
+ 1	 2	 3	 4	 5
+spuštění služeb systému
+
+Otázka 30: Určete správné pořadí následujících kroků
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+1	2	3	4	5
+start procesu init
+1	2	3	4	5
+start kernelu
+1	2	3	4	5
+provedení /etc/rcN.d/K* (N je spouštěná běhová úroveň)
+1	2	3	4	5
+provedení /etc/rcN.d/S* (N je spouštěná běhová úroveň)
+1	2	3	4	5
+načtení /etc/inittab
+
+Otázka 42: Očíslujte pořadí symbolických kroků tak, jak je realizuje například program newsyslog
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4
+touch log
+ 1	 2	 3	 4
+mv log log.old
+ 1	 2	 3	 4
+gzip log.old
+ 1	 2	 3	 4
+kill -HUP `cat syslogd.pid`
+
+Otázka 53: Označte pořadí průchodu systémového FS/IO volání od uživatelské aplikace na Linuxu
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+buffer keš
+ 1	 2	 3	 4	 5
+VFS
+ 1	 2	 3	 4	 5
+rozhraní systémových volání
+ 1	 2	 3	 4	 5
+implementace FS
+ 1	 2	 3	 4	 5
+ovladač diskového zařízení
+
+Otázka 69: Určete pořadí (nejdůležitejší=1) následujících vybraných úrovní syslog zpráv
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6
+debug
+ 1	 2	 3	 4	 5	 6
+crit
+ 1	 2	 3	 4	 5	 6
+info
+ 1	 2	 3	 4	 5	 6
+warning
+ 1	 2	 3	 4	 5	 6
+emerg
+ 1	 2	 3	 4	 5	 6
+err
+
+Otázka 79: Přiřaďte čísla běhových úrovní v SystemV
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 3	 6
+halt
+ 0	 1	 3	 6
+multi-user (Linux)
+ 0	 1	 3	 6
+reboot
+ 0	 1	 3	 6
+single-user
+
+Otázka 83: Označte číslem pořadí v jakém pracuje fsck
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+kontrola počtu odkazů a vazeb
+ 1	 2	 3	 4	 5
+kontrola dosažitelnosti adresářů
+ 1	 2	 3	 4	 5
+kontrola cylinder groups
+ 1	 2	 3	 4	 5
+kontrola adresářů
+ 1	 2	 3	 4	 5
+kontrola bloků a velikostí
+
+Otázka 86: Označte pořadí provedení vybraných make cílů při stavbě balíčku skrze OpenBSD ports
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6	 7
+install
+ 1	 2	 3	 4	 5	 6	 7
+package
+ 1	 2	 3	 4	 5	 6	 7
+fetch
+ 1	 2	 3	 4	 5	 6	 7
+extract
+ 1	 2	 3	 4	 5	 6	 7
+build
+ 1	 2	 3	 4	 5	 6	 7
+patch
+ 1	 2	 3	 4	 5	 6	 7
+configure
+
+Otázka 97: Určete správné pořadí následujících kroků (očíslujte je) v OpenBSD
+
+Tento test byl již vyhodnocen jako 0:128 nedostatecne
+Možnosti	Odpověď
+1	2	3	4	5	6	7	8
+start /etc/rc
+1	2	3	4	5	6	7	8
+start /etc/rc.local
+1	2	3	4	5	6	7	8
+start kernelu
+1	2	3	4	5	6	7	8
+start standardních démonů (sshd, named, httpd, atp.)
+1	2	3	4	5	6	7	8
+mount filesystémů (mount -a)
+1	2	3	4	5	6	7	8
+promazání /tmp
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf.local
+
+Otázka 13: Určete pořadí (nejdůležitejší=1) následujících vybraných úrovní syslog zpráv
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6
+info
+ 1	 2	 3	 4	 5	 6
+err
+ 1	 2	 3	 4	 5	 6
+debug
+ 1	 2	 3	 4	 5	 6
+crit
+ 1	 2	 3	 4	 5	 6
+emerg
+ 1	 2	 3	 4	 5	 6
+warning
+
+Otázka 40: Přiřaďte čísla běhových úrovní v SystemV
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 3	 6
+halt
+ 0	 1	 3	 6
+reboot
+ 0	 1	 3	 6
+single-user
+ 0	 1	 3	 6
+multi-user (Linux)
+
+Otázka 62: Označte pořadí průchodu systémového FS/IO volání od uživatelské aplikace na Linuxu
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+ovladač diskového zařízení
+ 1	 2	 3	 4	 5
+buffer keš
+ 1	 2	 3	 4	 5
+rozhraní systémových volání
+ 1	 2	 3	 4	 5
+implementace FS
+ 1	 2	 3	 4	 5
+VFS
+
+Otázka 63: Označte číslem pořadí v jakém pracuje fsck
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+kontrola počtu odkazů a vazeb
+ 1	 2	 3	 4	 5
+kontrola bloků a velikostí
+ 1	 2	 3	 4	 5
+kontrola cylinder groups
+ 1	 2	 3	 4	 5
+kontrola adresářů
+ 1	 2	 3	 4	 5
+kontrola dosažitelnosti adresářů
+
+Otázka 64: Očíslujte pořadí následujících operací při startu systému
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+detekce HW kernelem
+ 1	 2	 3	 4	 5
+spuštění procesu init
+ 1	 2	 3	 4	 5
+start zavaděčů
+ 1	 2	 3	 4	 5
+nahrání kernelu
+ 1	 2	 3	 4	 5
+spuštění služeb systému
+
+Otázka 66: Označte pořadí provedení vybraných make cílů při stavbě balíčku skrze OpenBSD ports
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6	 7
+build
+ 1	 2	 3	 4	 5	 6	 7
+fetch
+ 1	 2	 3	 4	 5	 6	 7
+patch
+ 1	 2	 3	 4	 5	 6	 7
+install
+ 1	 2	 3	 4	 5	 6	 7
+extract
+ 1	 2	 3	 4	 5	 6	 7
+configure
+ 1	 2	 3	 4	 5	 6	 7
+package
+
+Otázka 74: Očíslujte pořadí symbolických kroků tak, jak je realizuje například program newsyslog
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4
+mv log log.old
+ 1	 2	 3	 4
+kill -HUP `cat syslogd.pid`
+ 1	 2	 3	 4
+gzip log.old
+ 1	 2	 3	 4
+touch log
+
+Otázka 76: Označte pořadí kroků při přechodu z běhové úrovně 3 na 1 (0=neproběhne)
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 2
+skripty /etc/rc3.d/S*
+ 0	 1	 2
+skripty /etc/rc1.d/K*
+ 0	 1	 2
+skripty /etc/rc3.d/K*
+ 0	 1	 2
+skripty /etc/rc1.d/S*
+
+Otázka 87: Určete správné pořadí následujících kroků (očíslujte je) v OpenBSD
+
+Tento test byl již vyhodnocen jako 0:123 nedostatecne
+Možnosti	Odpověď
+1	2	3	4	5	6	7	8
+start /etc/rc.local
+1	2	3	4	5	6	7	8
+mount filesystémů (mount -a)
+1	2	3	4	5	6	7	8
+start /etc/rc
+1	2	3	4	5	6	7	8
+promazání /tmp
+1	2	3	4	5	6	7	8
+start kernelu
+1	2	3	4	5	6	7	8
+start standardních démonů (sshd, named, httpd, atp.)
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf.local
+
+Otázka 1: Označte pořadí průchodu systémového FS/IO volání od uživatelské aplikace na Linuxu
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+rozhraní systémových volání
+ 1	 2	 3	 4	 5
+VFS
+ 1	 2	 3	 4	 5
+ovladač diskového zařízení
+ 1	 2	 3	 4	 5
+implementace FS
+ 1	 2	 3	 4	 5
+buffer keš
+
+Otázka 33: Přiřaďte čísla běhových úrovní v SystemV
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 3	 6
+multi-user (Linux)
+ 0	 1	 3	 6
+reboot
+ 0	 1	 3	 6
+single-user
+ 0	 1	 3	 6
+halt
+
+Otázka 67: Určete pořadí (nejdůležitejší=1) následujících vybraných úrovní syslog zpráv
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6
+emerg
+ 1	 2	 3	 4	 5	 6
+info
+ 1	 2	 3	 4	 5	 6
+warning
+ 1	 2	 3	 4	 5	 6
+crit
+ 1	 2	 3	 4	 5	 6
+err
+ 1	 2	 3	 4	 5	 6
+debug
+
+Otázka 70: Určete správné pořadí následujících kroků (očíslujte je) v OpenBSD
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+1	2	3	4	5	6	7	8
+start standardních démonů (sshd, named, httpd, atp.)
+1	2	3	4	5	6	7	8
+start /etc/rc.local
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf.local
+1	2	3	4	5	6	7	8
+start /etc/rc
+1	2	3	4	5	6	7	8
+mount filesystémů (mount -a)
+1	2	3	4	5	6	7	8
+start kernelu
+1	2	3	4	5	6	7	8
+promazání /tmp
+
+Otázka 79: Označte pořadí kroků při přechodu z běhové úrovně 3 na 1 (0=neproběhne)
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 2
+skripty /etc/rc3.d/S*
+ 0	 1	 2
+skripty /etc/rc1.d/K*
+ 0	 1	 2
+skripty /etc/rc1.d/S*
+ 0	 1	 2
+skripty /etc/rc3.d/K*
+
+Otázka 92: Očíslujte pořadí symbolických kroků tak, jak je realizuje například program newsyslog
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4
+mv log log.old
+ 1	 2	 3	 4
+gzip log.old
+ 1	 2	 3	 4
+touch log
+ 1	 2	 3	 4
+kill -HUP `cat syslogd.pid`
+
+Otázka 97: Označte číslem pořadí v jakém pracuje fsck
+
+Tento test byl již vyhodnocen jako 0:117 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+kontrola bloků a velikostí
+ 1	 2	 3	 4	 5
+kontrola počtu odkazů a vazeb
+ 1	 2	 3	 4	 5
+kontrola dosažitelnosti adresářů
+ 1	 2	 3	 4	 5
+kontrola adresářů
+ 1	 2	 3	 4	 5
+kontrola cylinder groups
+
+Otázka 1: Označte číslem pořadí v jakém pracuje fsck
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+kontrola počtu odkazů a vazeb
+ 1	 2	 3	 4	 5
+kontrola cylinder groups
+ 1	 2	 3	 4	 5
+kontrola adresářů
+ 1	 2	 3	 4	 5
+kontrola bloků a velikostí
+ 1	 2	 3	 4	 5
+kontrola dosažitelnosti adresářů
+
+Otázka 4: Určete správné pořadí následujících kroků
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+1	2	3	4	5
+provedení /etc/rcN.d/K* (N je spouštěná běhová úroveň)
+1	2	3	4	5
+start kernelu
+1	2	3	4	5
+provedení /etc/rcN.d/S* (N je spouštěná běhová úroveň)
+1	2	3	4	5
+načtení /etc/inittab
+1	2	3	4	5
+start procesu init
+
+Otázka 9: Přiřaďte čísla běhových úrovní v SystemV
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 3	 6
+multi-user (Linux)
+ 0	 1	 3	 6
+reboot
+ 0	 1	 3	 6
+single-user
+ 0	 1	 3	 6
+halt
+
+Otázka 17: Označte pořadí kroků při přechodu z běhové úrovně 3 na 1 (0=neproběhne)
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 0	 1	 2
+skripty /etc/rc3.d/S*
+ 0	 1	 2
+skripty /etc/rc1.d/S*
+ 0	 1	 2
+skripty /etc/rc3.d/K*
+ 0	 1	 2
+skripty /etc/rc1.d/K*
+
+Otázka 30: Očíslujte pořadí následujících operací při startu systému
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+spuštění služeb systému
+ 1	 2	 3	 4	 5
+detekce HW kernelem
+ 1	 2	 3	 4	 5
+start zavaděčů
+ 1	 2	 3	 4	 5
+spuštění procesu init
+ 1	 2	 3	 4	 5
+nahrání kernelu
+
+Otázka 32: Označte pořadí provedení vybraných make cílů při stavbě balíčku skrze OpenBSD ports
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6	 7
+build
+ 1	 2	 3	 4	 5	 6	 7
+package
+ 1	 2	 3	 4	 5	 6	 7
+fetch
+ 1	 2	 3	 4	 5	 6	 7
+install
+ 1	 2	 3	 4	 5	 6	 7
+extract
+ 1	 2	 3	 4	 5	 6	 7
+patch
+ 1	 2	 3	 4	 5	 6	 7
+configure
+
+Otázka 43: Označte pořadí průchodu systémového FS/IO volání od uživatelské aplikace na Linuxu
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+VFS
+ 1	 2	 3	 4	 5
+rozhraní systémových volání
+ 1	 2	 3	 4	 5
+ovladač diskového zařízení
+ 1	 2	 3	 4	 5
+implementace FS
+ 1	 2	 3	 4	 5
+buffer keš
+
+Otázka 52: Určete správné pořadí následujících kroků (očíslujte je) v OpenBSD
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+1	2	3	4	5	6	7	8
+mount filesystémů (mount -a)
+1	2	3	4	5	6	7	8
+start /etc/rc
+1	2	3	4	5	6	7	8
+start /etc/rc.local
+1	2	3	4	5	6	7	8
+promazání /tmp
+1	2	3	4	5	6	7	8
+start kernelu
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf.local
+1	2	3	4	5	6	7	8
+start standardních démonů (sshd, named, httpd, atp.)
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf
+
+Otázka 80: Očíslujte pořadí symbolických kroků tak, jak je realizuje například program newsyslog
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4
+kill -HUP `cat syslogd.pid`
+ 1	 2	 3	 4
+mv log log.old
+ 1	 2	 3	 4
+gzip log.old
+ 1	 2	 3	 4
+touch log
+
+Otázka 86: Určete pořadí (nejdůležitejší=1) následujících vybraných úrovní syslog zpráv
+
+Tento test byl již vyhodnocen jako 0:130 nedostatecne
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6
+info
+ 1	 2	 3	 4	 5	 6
+debug
+ 1	 2	 3	 4	 5	 6
+warning
+ 1	 2	 3	 4	 5	 6
+emerg
+ 1	 2	 3	 4	 5	 6
+err
+ 1	 2	 3	 4	 5	 6
+crit
+
+Otázka 7: Určete správné pořadí následujících kroků (očíslujte je) v OpenBSD
+
+Možnosti	Odpověď
+1	2	3	4	5	6	7	8
+start standardních démonů (sshd, named, httpd, atp.)
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf
+1	2	3	4	5	6	7	8
+start kernelu
+1	2	3	4	5	6	7	8
+mount filesystémů (mount -a)
+1	2	3	4	5	6	7	8
+start /etc/rc.local
+1	2	3	4	5	6	7	8
+načtení /etc/rc.conf.local
+1	2	3	4	5	6	7	8
+promazání /tmp
+1	2	3	4	5	6	7	8
+start /etc/rc
+
+Otázka 9: Určete pořadí (nejdůležitejší=1) následujících vybraných úrovní syslog zpráv
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6
+emerg
+ 1	 2	 3	 4	 5	 6
+warning
+ 1	 2	 3	 4	 5	 6
+crit
+ 1	 2	 3	 4	 5	 6
+info
+ 1	 2	 3	 4	 5	 6
+err
+ 1	 2	 3	 4	 5	 6
+debug
+
+Otázka 38: Určete správné pořadí následujících kroků
+
+Možnosti	Odpověď
+1	2	3	4	5
+start procesu init
+1	2	3	4	5
+start kernelu
+1	2	3	4	5
+načtení /etc/inittab
+1	2	3	4	5
+provedení /etc/rcN.d/S* (N je spouštěná běhová úroveň)
+1	2	3	4	5
+provedení /etc/rcN.d/K* (N je spouštěná běhová úroveň)
+
+Otázka 44: Označte pořadí provedení vybraných make cílů při stavbě balíčku skrze OpenBSD ports
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5	 6	 7
+build
+ 1	 2	 3	 4	 5	 6	 7
+configure
+ 1	 2	 3	 4	 5	 6	 7
+package
+ 1	 2	 3	 4	 5	 6	 7
+patch
+ 1	 2	 3	 4	 5	 6	 7
+fetch
+ 1	 2	 3	 4	 5	 6	 7
+extract
+ 1	 2	 3	 4	 5	 6	 7
+install
+
+Otázka 49: Očíslujte pořadí symbolických kroků tak, jak je realizuje například program newsyslog
+
+Možnosti	Odpověď
+ 1	 2	 3	 4
+mv log log.old
+ 1	 2	 3	 4
+gzip log.old
+ 1	 2	 3	 4
+kill -HUP `cat syslogd.pid`
+ 1	 2	 3	 4
+touch log
+
+Otázka 82: Označte číslem pořadí v jakém pracuje fsck
+
+Možnosti	Odpověď
+ 1	 2	 3	 4	 5
+kontrola počtu odkazů a vazeb
+ 1	 2	 3	 4	 5
+kontrola adresářů
+ 1	 2	 3	 4	 5
+kontrola dosažitelnosti adresářů
+ 1	 2	 3	 4	 5
+kontrola cylinder groups
+ 1	 2	 3	 4	 5
+kontrola bloků a velikostí
+
+Otázka 92: Přiřaďte čísla běhových úrovní v SystemV
+
+Možnosti	Odpověď
+ 0	 1	 3	 6
+reboot
+ 0	 1	 3	 6
+multi-user (Linux)
+ 0	 1	 3	 6
+halt
+ 0	 1	 3	 6
+single-user
+
+Otázka 94: Označte pořadí kroků při přechodu z běhové úrovně 3 na 1 (0=neproběhne)
+
+Možnosti	Odpověď
+ 0	 1	 2
+skripty /etc/rc1.d/K*
+ 0	 1	 2
+skripty /etc/rc1.d/S*
+ 0	 1	 2
+skripty /etc/rc3.d/S*
+ 0	 1	 2
+skripty /etc/rc3.d/K*
